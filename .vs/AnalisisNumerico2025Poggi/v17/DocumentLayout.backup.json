@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|c:\\users\\juani\\source\\repos\\analisisnumerico2025poggi\\analisisnumerico2025poggi\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|c:\\users\\juani\\source\\repos\\analisisnumerico2025poggi\\analisisnumerico2025poggi\\metodosabiertos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\metodosabiertos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|c:\\users\\juani\\source\\repos\\analisisnumerico2025poggi\\analisisnumerico2025poggi\\metodoscerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\metodoscerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|c:\\users\\juani\\source\\repos\\analisisnumerico2025poggi\\analisisnumerico2025poggi\\resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\resultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Datos.cs",
+              "DocumentMoniker": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi\\Datos.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\Datos.cs",
+              "ToolTip": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi\\Datos.cs*",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\Datos.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:26:44.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MetodosAbiertos.cs",
+              "DocumentMoniker": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi\\MetodosAbiertos.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\MetodosAbiertos.cs",
+              "ToolTip": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi\\MetodosAbiertos.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\MetodosAbiertos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:39:46.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MetodosCerrados.cs",
+              "DocumentMoniker": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
+              "ToolTip": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:39:57.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Resultado.cs",
+              "DocumentMoniker": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi\\Resultado.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\Resultado.cs",
+              "ToolTip": "C:\\Users\\juani\\source\\repos\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi\\Resultado.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\Resultado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T23:43:14.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

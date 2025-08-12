@@ -1,0 +1,5 @@
+C:\Users\juani\source\repos\AnalisisNumerico2025Poggi\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.csproj.AssemblyReference.cache
+C:\Users\juani\source\repos\AnalisisNumerico2025Poggi\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juani\source\repos\AnalisisNumerico2025Poggi\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.AssemblyInfoInputs.cache
+C:\Users\juani\source\repos\AnalisisNumerico2025Poggi\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.AssemblyInfo.cs
+C:\Users\juani\source\repos\AnalisisNumerico2025Poggi\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.csproj.CoreCompileInputs.cache
