@@ -10,11 +10,17 @@ namespace AnalisisNumerico2025Poggi
     {
         public bool Success;
         public string Message;
+        public double Raiz { get; set; }
+        public List<Datos> Iteraciones { get; set; } = new List<Datos>();
+
 
         public Resultado(bool success, string message)
         {
             Success = success;
             Message = message;
+        }
+        public Resultado()
+        {
         }
     }
 }

@@ -1,0 +1,77 @@
+Listado de rutas de carpetas
+El número de serie del volumen es E6B3-3E15
+C:.
+|   AnalisisNumerico2025Poggi.sln
+|   estructura.txt
+|   
++---.vs
+|   +---AnalisisNumerico2025Poggi
+|   |   +---copilot-chat
+|   |   |   \---845fce13
+|   |   |       \---sessions
+|   |   |               994b2b58-60fc-4db7-9d9f-ea4b807e25f5
+|   |   |               
+|   |   +---CopilotIndices
+|   |   |   \---17.14.734.62261
+|   |   |           CodeChunks.db
+|   |   |           CodeChunks.db-shm
+|   |   |           CodeChunks.db-wal
+|   |   |           SemanticSymbols.db
+|   |   |           SemanticSymbols.db-shm
+|   |   |           SemanticSymbols.db-wal
+|   |   |           
+|   |   +---DesignTimeBuild
+|   |   |       .dtbcache.v2
+|   |   |       
+|   |   +---FileContentIndex
+|   |   |       2a7d117e-37e6-4a59-8ce0-7176e65d927e.vsidx
+|   |   |       723a4a36-f59b-4115-97aa-5fd57330e4d1.vsidx
+|   |   |       91aacb16-c952-4df1-8026-58b811fbea7d.vsidx
+|   |   |       ac74fef9-b271-49b8-a9a4-191186572d2c.vsidx
+|   |   |       fabdc490-cc8c-412b-a18f-48051c7e2f26.vsidx
+|   |   |       
+|   |   \---v17
+|   |           .futdcache.v2
+|   |           DocumentLayout.backup.json
+|   |           DocumentLayout.json
+|   |           
+|   \---ProjectEvaluation
+|           analisisnumerico2025poggi.metadata.v9.bin
+|           analisisnumerico2025poggi.projects.v9.bin
+|           analisisnumerico2025poggi.strings.v9.bin
+|           
+\---AnalisisNumerico2025Poggi
+    |   AnalisisNumerico2025Poggi.csproj
+    |   Datos.cs
+    |   MetodosAbiertos.cs
+    |   MetodosCerrados.cs
+    |   Resultado.cs
+    |   
+    +---bin
+    |   \---Debug
+    |       \---net8.0
+    +---Libs
+    |       Calculus.dll
+    |       
+    \---obj
+        |   AnalisisNumerico2025Poggi.csproj.nuget.dgspec.json
+        |   AnalisisNumerico2025Poggi.csproj.nuget.g.props
+        |   AnalisisNumerico2025Poggi.csproj.nuget.g.targets
+        |   project.assets.json
+        |   project.nuget.cache
+        |   
+        \---Debug
+            \---net8.0
+                |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+                |   AnalisisNumerico2025Poggi.AssemblyInfo.cs
+                |   AnalisisNumerico2025Poggi.AssemblyInfoInputs.cache
+                |   AnalisisNumerico2025Poggi.assets.cache
+                |   AnalisisNumerico2025Poggi.csproj.AssemblyReference.cache
+                |   AnalisisNumerico2025Poggi.csproj.CoreCompileInputs.cache
+                |   AnalisisNumerico2025Poggi.csproj.FileListAbsolute.txt
+                |   AnalisisNumerico2025Poggi.GeneratedMSBuildEditorConfig.editorconfig
+                |   AnalisisNumerico2025Poggi.GlobalUsings.g.cs
+                |   AnalisisNumerico2025Poggi.sourcelink.json
+                |   
+                +---ref
+                \---refint

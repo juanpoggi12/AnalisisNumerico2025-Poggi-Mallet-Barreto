@@ -1,23 +1,31 @@
 ﻿using System.Linq.Expressions;
 using Calculus;
+using System;
 namespace AnalisisNumerico2025Poggi
 {
     public class Datos
     {
-        //Ingresar funcion, iteraciones, tolerancia, xi, xd, método
-        public string FuncionString {  get; set; }
-        public Func<double, double> Funcion {  get; set; }
-        public string Metodo { get; set; }
-        public int Iteraciones { get; set; }
-        public double Tolerancia { get; set; }
-        public double Xi {  get; set; }
-        public double Xd { get; set; }
+        public int Iteracion { get; set; }
+        public double Xi { get; set; }
+        public double? Xd { get; set; }
+        public double Fxi { get; set; }
+        public double? Fxd { get; set; }
+        public double? Dfxi { get; set; }
+        public double Xr { get; set; }
+        public double Error { get; set; }
 
-        public Datos(string funcionString, string metodo, int iteraciones, double tolerancia, double xi, double xd)
+        public Datos() { }
+
+        public Datos(int iteracion, double xi, double? xd, double fxi, double? fxd, double? dfxi, double xr, double error)
         {
-            FuncionString = funcionString;
-            Funcion = new Expression(funcionString);
+            Iteracion = iteracion;
+            Xi = xi;
+            Xd = xd;
+            Fxi = fxi;
+            Fxd = fxd;
+            Dfxi = dfxi;
+            Xr = xr;
+            Error = error;
         }
-
     }
 }
