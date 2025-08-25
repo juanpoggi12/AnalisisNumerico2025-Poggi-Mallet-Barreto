@@ -18,14 +18,14 @@ namespace AnalisisNumerico2025Poggi
                 double tolerancia = 0.0001;
                 int maxIteraciones = 100;
 
-                MetodosAbiertos metodo = new MetodosAbiertos(funcion);
+                var metodos = new MetodosAbiertos(funcion);
 
                 Console.WriteLine("Método Newton-Raphson:");
-                var resultadoNR = metodo.NewtonRaphson(xi, tolerancia, maxIteraciones);
+                var resultadoNR = metodos.NewtonRaphson(xi, tolerancia, maxIteraciones);
                 MostrarResultado(resultadoNR);
 
                 Console.WriteLine("\nMétodo Secante:");
-                var resultadoSecante = metodo.Secante(xi, xd, tolerancia, maxIteraciones);
+                var resultadoSecante = metodos.Secante(xi, xd, tolerancia, maxIteraciones);
                 MostrarResultado(resultadoSecante);
             }
             catch (Exception ex)
@@ -37,6 +37,7 @@ namespace AnalisisNumerico2025Poggi
         static void MostrarResultado(Resultado resultado)
         {
             Console.WriteLine($"Raíz aproximada: {resultado.Raiz}");
+            Console.WriteLine($"Mensaje: {resultado.Message}");
             foreach (var paso in resultado.Iteraciones)
             {
                 Console.WriteLine($"Iteración {paso.Iteracion}: Xr = {paso.Xr}, Error = {paso.Error}");
