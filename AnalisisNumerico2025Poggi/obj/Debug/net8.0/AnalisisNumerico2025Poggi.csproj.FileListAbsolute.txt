@@ -9,3 +9,12 @@ C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNume
 C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.AssemblyInfo.cs
 C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.csproj.CoreCompileInputs.cache
 C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.sourcelink.json
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\bin\Debug\net8.0\AnalisisNumerico2025Poggi.deps.json
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\bin\Debug\net8.0\AnalisisNumerico2025Poggi.dll
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\bin\Debug\net8.0\AnalisisNumerico2025Poggi.pdb
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\bin\Debug\net8.0\Calculus.dll
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\obj\Debug\net8.0\Analisis.1EB2A0AC.Up2Date
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.dll
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\obj\Debug\net8.0\refint\AnalisisNumerico2025Poggi.dll
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\obj\Debug\net8.0\AnalisisNumerico2025Poggi.pdb
+C:\Users\Joaquina\Desktop\AnalisisNumerico2025-Poggi-Mallet-Barreto\AnalisisNumerico2025Poggi\obj\Debug\net8.0\ref\AnalisisNumerico2025Poggi.dll

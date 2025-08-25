@@ -1,6 +1,8 @@
 ﻿using System.Linq.Expressions;
 using Calculus;
 using System;
+using System.Collections.Generic;
+
 namespace AnalisisNumerico2025Poggi
 {
     public class Datos
@@ -13,6 +15,7 @@ namespace AnalisisNumerico2025Poggi
         public double? Dfxi { get; set; }
         public double Xr { get; set; }
         public double Error { get; set; }
+        public List<Datos> Iteraciones { get; set; } = new List<Datos>();
 
         public Datos() { }
 
