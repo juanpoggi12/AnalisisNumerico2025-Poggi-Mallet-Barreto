@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalisisNumerico2025Poggi", "AnalisisNumerico2025Poggi\AnalisisNumerico2025Poggi.csproj", "{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfazDeUsuario", "InterfazDeUsuario\InterfazDeUsuario.csproj", "{EE2E790B-7132-4F61-B802-A73F472CAD42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2E790B-7132-4F61-B802-A73F472CAD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2E790B-7132-4F61-B802-A73F472CAD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2E790B-7132-4F61-B802-A73F472CAD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2E790B-7132-4F61-B802-A73F472CAD42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
