@@ -42,8 +42,6 @@
             txtXi = new TextBox();
             txtXd = new TextBox();
             buttonCalcular = new Button();
-
-            // Resultados
             lblRaiz = new Label();
             txtRaiz = new TextBox();
             lblMensaje = new Label();
@@ -52,7 +50,6 @@
             txtIteracionesRes = new TextBox();
             lblErrorRes = new Label();
             txtErrorRes = new TextBox();
-
             SuspendLayout();
             // 
             // lblIngresarFuncion
@@ -75,22 +72,16 @@
             // cmbMetodo
             // 
             cmbMetodo.FormattingEnabled = true;
-            cmbMetodo.Items.AddRange(new object[] {
-                "Método Cerrado: Bisección",
-                "Método Cerrado: Regla Falsa",
-                "Método Abierto: Newton-Raphson",
-                "Método Abierto: Secante"
-            });
+            cmbMetodo.Items.AddRange(new object[] { "Método Cerrado: Bisección", "Método Cerrado: Regla Falsa", "Método Abierto: Newton-Raphson", "Método Abierto: Secante" });
             cmbMetodo.Location = new Point(40, 161);
             cmbMetodo.Name = "cmbMetodo";
             cmbMetodo.Size = new Size(274, 28);
             cmbMetodo.TabIndex = 2;
-            cmbMetodo.SelectedIndex = 0;
             // 
             // lblMetodo
             // 
             lblMetodo.AutoSize = true;
-            lblMetodo.BackColor = SystemColors.ActiveCaption;
+            lblMetodo.BackColor = SystemColors.Control;
             lblMetodo.Location = new Point(40, 122);
             lblMetodo.Name = "lblMetodo";
             lblMetodo.Size = new Size(142, 20);
@@ -100,7 +91,7 @@
             // lblIteraciones
             // 
             lblIteraciones.AutoSize = true;
-            lblIteraciones.BackColor = SystemColors.MenuHighlight;
+            lblIteraciones.BackColor = SystemColors.GradientActiveCaption;
             lblIteraciones.Location = new Point(40, 212);
             lblIteraciones.Name = "lblIteraciones";
             lblIteraciones.Size = new Size(81, 20);
@@ -117,7 +108,7 @@
             // lblTolerancia
             // 
             lblTolerancia.AutoSize = true;
-            lblTolerancia.BackColor = SystemColors.HotTrack;
+            lblTolerancia.BackColor = SystemColors.GradientActiveCaption;
             lblTolerancia.Location = new Point(40, 298);
             lblTolerancia.Name = "lblTolerancia";
             lblTolerancia.Size = new Size(77, 20);
@@ -134,7 +125,7 @@
             // lblIntervalo
             // 
             lblIntervalo.AutoSize = true;
-            lblIntervalo.BackColor = SystemColors.MenuHighlight;
+            lblIntervalo.BackColor = SystemColors.GradientActiveCaption;
             lblIntervalo.Location = new Point(104, 398);
             lblIntervalo.Name = "lblIntervalo";
             lblIntervalo.Size = new Size(148, 20);
@@ -190,70 +181,70 @@
             // lblRaiz
             // 
             lblRaiz.AutoSize = true;
-            lblRaiz.Location = new Point(400, 42);
+            lblRaiz.Location = new Point(400, 39);
             lblRaiz.Name = "lblRaiz";
-            lblRaiz.Size = new Size(38, 20);
+            lblRaiz.Size = new Size(37, 20);
             lblRaiz.TabIndex = 14;
             lblRaiz.Text = "Raíz";
             // 
             // txtRaiz
             // 
-            txtRaiz.Location = new Point(450, 39);
+            txtRaiz.Location = new Point(560, 39);
             txtRaiz.Name = "txtRaiz";
+            txtRaiz.ReadOnly = true;
             txtRaiz.Size = new Size(200, 27);
             txtRaiz.TabIndex = 15;
-            txtRaiz.ReadOnly = true;
             // 
             // lblMensaje
             // 
             lblMensaje.AutoSize = true;
-            lblMensaje.Location = new Point(400, 82);
+            lblMensaje.Location = new Point(400, 161);
             lblMensaje.Name = "lblMensaje";
-            lblMensaje.Size = new Size(65, 20);
+            lblMensaje.Size = new Size(64, 20);
             lblMensaje.TabIndex = 16;
             lblMensaje.Text = "Mensaje";
             // 
             // txtMensaje
             // 
-            txtMensaje.Location = new Point(480, 79);
+            txtMensaje.Location = new Point(488, 158);
             txtMensaje.Name = "txtMensaje";
+            txtMensaje.ReadOnly = true;
             txtMensaje.Size = new Size(300, 27);
             txtMensaje.TabIndex = 17;
-            txtMensaje.ReadOnly = true;
             // 
             // lblIteracionesRes
             // 
             lblIteracionesRes.AutoSize = true;
-            lblIteracionesRes.Location = new Point(400, 122);
+            lblIteracionesRes.Location = new Point(400, 83);
             lblIteracionesRes.Name = "lblIteracionesRes";
-            lblIteracionesRes.Size = new Size(146, 20);
+            lblIteracionesRes.Size = new Size(152, 20);
             lblIteracionesRes.TabIndex = 18;
             lblIteracionesRes.Text = "Iteraciones realizadas";
             // 
             // txtIteracionesRes
             // 
-            txtIteracionesRes.Location = new Point(560, 119);
+            txtIteracionesRes.Location = new Point(560, 115);
             txtIteracionesRes.Name = "txtIteracionesRes";
-            txtIteracionesRes.Size = new Size(100, 27);
-            txtIteracionesRes.TabIndex = 19;
             txtIteracionesRes.ReadOnly = true;
+            txtIteracionesRes.Size = new Size(200, 27);
+            txtIteracionesRes.TabIndex = 19;
             // 
             // lblErrorRes
             // 
             lblErrorRes.AutoSize = true;
-            lblErrorRes.Location = new Point(400, 162);
+            lblErrorRes.Location = new Point(400, 122);
             lblErrorRes.Name = "lblErrorRes";
-            lblErrorRes.Size = new Size(43, 20);
+            lblErrorRes.Size = new Size(41, 20);
             lblErrorRes.TabIndex = 20;
             lblErrorRes.Text = "Error";
             // 
             // txtErrorRes
             // 
-            txtErrorRes.Location = new Point(460, 159);
+            txtErrorRes.Location = new Point(560, 76);
             txtErrorRes.Name = "txtErrorRes";
+            txtErrorRes.ReadOnly = true;
             txtErrorRes.Size = new Size(200, 27);
             txtErrorRes.TabIndex = 21;
-            txtErrorRes.ReadOnly = true;
             // 
             // RaicesForm
             // 
@@ -268,7 +259,6 @@
             Controls.Add(txtIteracionesRes);
             Controls.Add(lblErrorRes);
             Controls.Add(txtErrorRes);
-
             Controls.Add(buttonCalcular);
             Controls.Add(txtXd);
             Controls.Add(txtXi);

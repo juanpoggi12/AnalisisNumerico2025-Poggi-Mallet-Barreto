@@ -1,16 +1,16 @@
 ﻿using AnalisisNumerico2025Poggi;
 using Calculus;
 using System;
-using System.Collections.Generic;
 
 public class MetodosAbiertos
 {
-    private Calculo analizador;
+    private readonly Calculo analizador;
 
     public MetodosAbiertos(string funcion)
     {
         if (string.IsNullOrWhiteSpace(funcion))
             throw new ArgumentException("La función no puede estar vacía.");
+
         analizador = new Calculo();
         if (!analizador.Sintaxis(funcion, 'x'))
             throw new ArgumentException("Función inválida.");
@@ -21,14 +21,13 @@ public class MetodosAbiertos
         if (tolerancia <= 0) throw new ArgumentException("La tolerancia debe ser positiva.");
         if (maxIteraciones <= 0) throw new ArgumentException("Las iteraciones deben ser mayores a cero.");
 
-        Resultado resultado = new Resultado();
+        var resultado = new Resultado();
         double xrAnterior = xi;
         double xr = xi;
-        double error = 0;
+        double error = 1.0; // convención
 
-     
-        double fxi = analizador.EvaluaFx(xi);
-        if (Math.Abs(fxi) < tolerancia)
+        // chequeo rápido: xi ya es raíz
+        if (Math.Abs(analizador.EvaluaFx(xi)) < tolerancia)
         {
             resultado.Raiz = xi;
             resultado.Message = "xi es raíz";
@@ -37,21 +36,25 @@ public class MetodosAbiertos
 
         for (int i = 1; i <= maxIteraciones; i++)
         {
-            double derivada = analizador.Dx(xr);
-            if (double.IsNaN(derivada) || Math.Abs(derivada) < 1e-10)
+            double derivada = analizador.Dx(xrAnterior);
+            if (double.IsNaN(derivada) || Math.Abs(derivada) < 1e-12)
             {
-                resultado.Message = "El método diverge. No encuentra raíz (derivada nula o NaN).";
-                break;
+                resultado.Message = "Derivada ~ 0: el método no puede continuar.";
+                resultado.Raiz = xrAnterior;
+                return resultado;
             }
 
-            xr = CalcularXr("tangente", xr, 0); 
-            if (double.IsNaN(xr))
+            xr = CalcularXrNewton(xrAnterior, derivada);
+
+            if (double.IsNaN(xr) || double.IsInfinity(xr))
             {
-                resultado.Message = "El método diverge. No encuentra raíz (xr es NaN).";
-                break;
+                resultado.Message = "xr inválido (NaN/∞): el método diverge.";
+                resultado.Raiz = xrAnterior;
+                return resultado;
             }
 
-            error = Math.Abs((xr - xrAnterior) / xr);
+            if (Math.Abs(xr) > 0)
+                error = Math.Abs((xr - xrAnterior) / xr);
 
             resultado.Iteraciones.Add(new Datos(
                 iteracion: i,
@@ -61,24 +64,21 @@ public class MetodosAbiertos
                 fxd: null,
                 dfxi: derivada,
                 xr: xr,
-                error: error
+                error: (i == 1 ? 1.0 : error)
             ));
 
-            if (Math.Abs(analizador.EvaluaFx(xr)) < tolerancia || error < tolerancia)
+            if (Math.Abs(analizador.EvaluaFx(xr)) < tolerancia || (i > 1 && error < tolerancia))
             {
                 resultado.Raiz = xr;
-                resultado.Message = "xr es raíz";
-                break;
+                resultado.Message = "Convergió correctamente";
+                return resultado;
             }
 
             xrAnterior = xr;
         }
 
-        if (resultado.Raiz == 0)
-        {
-            resultado.Raiz = xr;
-            resultado.Message = "Devuelve xr por superar iteraciones";
-        }
+        resultado.Raiz = xr;
+        resultado.Message = "No convergió: se alcanzó el máximo de iteraciones";
         return resultado;
     }
 
@@ -87,19 +87,20 @@ public class MetodosAbiertos
         if (tolerancia <= 0) throw new ArgumentException("La tolerancia debe ser positiva.");
         if (maxIteraciones <= 0) throw new ArgumentException("Las iteraciones deben ser mayores a cero.");
 
-        Resultado resultado = new Resultado();
-        double xrAnterior = 0, xr = 0, error = 0;
+        var resultado = new Resultado();
+        double xrAnterior = double.NaN, xr = 0.0, error = 1.0;
 
-        
-        double fxi = analizador.EvaluaFx(xi);
-        if (Math.Abs(fxi) < tolerancia)
+        // chequeos rápidos
+        double fxi0 = analizador.EvaluaFx(xi);
+        if (Math.Abs(fxi0) < tolerancia)
         {
             resultado.Raiz = xi;
             resultado.Message = "xi es raíz";
             return resultado;
         }
-        double fxd = analizador.EvaluaFx(xd);
-        if (Math.Abs(fxd) < tolerancia)
+
+        double fxd0 = analizador.EvaluaFx(xd);
+        if (Math.Abs(fxd0) < tolerancia)
         {
             resultado.Raiz = xd;
             resultado.Message = "xd es raíz";
@@ -108,14 +109,17 @@ public class MetodosAbiertos
 
         for (int i = 1; i <= maxIteraciones; i++)
         {
-            xr = CalcularXr("secante", xi, xd);
-            if (double.IsNaN(xr))
+            xr = CalcularXrSecante(xi, xd);
+
+            if (double.IsNaN(xr) || double.IsInfinity(xr))
             {
-                resultado.Message = "El método diverge. No encuentra raíz (xr es NaN).";
-                break;
+                resultado.Message = "xr inválido (NaN/∞): el método diverge.";
+                resultado.Raiz = (double.IsNaN(xrAnterior) ? xi : xrAnterior);
+                return resultado;
             }
 
-            error = i == 1 ? 0 : Math.Abs((xr - xrAnterior) / xr);
+            if (!double.IsNaN(xrAnterior) && Math.Abs(xr) > 0)
+                error = Math.Abs((xr - xrAnterior) / xr);
 
             resultado.Iteraciones.Add(new Datos(
                 iteracion: i,
@@ -125,47 +129,44 @@ public class MetodosAbiertos
                 fxd: analizador.EvaluaFx(xd),
                 dfxi: null,
                 xr: xr,
-                error: error
+                error: (i == 1 ? 1.0 : error)
             ));
 
             if (Math.Abs(analizador.EvaluaFx(xr)) < tolerancia || (i > 1 && error < tolerancia))
             {
                 resultado.Raiz = xr;
-                resultado.Message = "xr es raíz";
-                break;
+                resultado.Message = "Convergió correctamente";
+                return resultado;
             }
 
+            // avanzar la secuencia
             xi = xd;
             xd = xr;
             xrAnterior = xr;
         }
 
-        if (resultado.Raiz == 0)
-        {
-            resultado.Raiz = xr;
-            resultado.Message = "Devuelve xr por superar iteraciones";
-        }
+        resultado.Raiz = xr;
+        resultado.Message = "No convergió: se alcanzó el máximo de iteraciones";
         return resultado;
     }
 
+    // ======================
+    // Métodos privados
+    // ======================
 
-    private double CalcularXr(string metodo, double xi, double xd)
+    private double CalcularXrNewton(double x, double derivadaEnX)
     {
-        if (metodo == "tangente")
-        {
-            double derivada = analizador.Dx(xi);
-            if (double.IsNaN(derivada) || Math.Abs(derivada) < 1e-10)
-                return double.NaN;
-            return xi - analizador.EvaluaFx(xi) / derivada;
-        }
-        else if (metodo == "secante")
-        {
-            double fxi = analizador.EvaluaFx(xi);
-            double fxd = analizador.EvaluaFx(xd);
-            if (Math.Abs(fxd - fxi) < 1e-10)
-                return double.NaN;
-            return (fxd * xi - fxi * xd) / (fxd - fxi);
-        }
-        return double.NaN;
+        double fx = analizador.EvaluaFx(x);
+        return x - fx / derivadaEnX;
+    }
+
+    private double CalcularXrSecante(double xi, double xd)
+    {
+        double fxi = analizador.EvaluaFx(xi);
+        double fxd = analizador.EvaluaFx(xd);
+        double denom = fxd - fxi;
+        if (Math.Abs(denom) < 1e-14)
+            return double.NaN;
+        return (fxd * xi - fxi * xd) / denom;
     }
 }

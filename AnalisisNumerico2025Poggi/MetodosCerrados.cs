@@ -5,7 +5,7 @@ namespace AnalisisNumerico2025Poggi
 {
     public enum ClosedMethod { Biseccion, ReglaFalsa }
 
-    public class Solver
+    public class MetodosCerrados
     {
         private readonly Calculo calc = new Calculo();
 
@@ -15,13 +15,9 @@ namespace AnalisisNumerico2025Poggi
                 throw new ArgumentException("Función inválida para Calculus.dll");
         }
 
-        /// <summary>
-        /// Método genérico que implementa el algoritmo de métodos cerrados
-        /// (bisección o regla falsa) con corte por |f(xr)| < tol o error relativo
-        /// </summary>
-        public double Resolver(string fx, char var, double xi, double xd,
-                               double tol = 1e-6, int maxIter = 100,
-                               ClosedMethod metodo = ClosedMethod.Biseccion)
+        public ResultadoRaiz Resolver(string fx, char var, double xi, double xd,
+                                      double tol = 1e-6, int maxIter = 100,
+                                      ClosedMethod metodo = ClosedMethod.Biseccion)
         {
             SetFunction(fx, var);
 
@@ -31,25 +27,38 @@ namespace AnalisisNumerico2025Poggi
             if (fxi * fxd > 0)
                 throw new ArgumentException("El intervalo no encierra una raíz (f(xi)*f(xd) > 0)");
 
-            if (Math.Abs(fxi) == 0) return xi;
-            if (Math.Abs(fxd) == 0) return xd;
+            if (Math.Abs(fxi) == 0)
+                return new ResultadoRaiz { Raiz = xi, Iteraciones = 0, Error = 0, Mensaje = "Xi es raíz exacta" };
+
+            if (Math.Abs(fxd) == 0)
+                return new ResultadoRaiz { Raiz = xd, Iteraciones = 0, Error = 0, Mensaje = "Xd es raíz exacta" };
 
             double xrAnterior = double.NaN;
             double xr = 0;
+            double error = 1.0; // convención
 
             for (int i = 1; i <= maxIter; i++)
             {
-                xr = CalcularXr(metodo, xi, xd);   // <- acá está el método que faltaba
+                xr = CalcularXr(metodo, xi, xd, fxi, fxd);
                 double fxr = calc.EvaluaFx(xr);
 
-                double error = double.PositiveInfinity;
-                if (!double.IsNaN(xrAnterior) && xr != 0)
+                // error relativo a partir de la segunda iteración
+                if (!double.IsNaN(xrAnterior) && Math.Abs(xr) > 0)
                     error = Math.Abs((xr - xrAnterior) / xr);
 
-                if (Math.Abs(fxr) < tol || error < tol)
-                    return xr;
+                // criterio de parada por función o por error
+                if (Math.Abs(fxr) < tol || (!double.IsNaN(xrAnterior) && error < tol))
+                {
+                    return new ResultadoRaiz
+                    {
+                        Raiz = xr,
+                        Iteraciones = i,
+                        Error = (Math.Abs(fxr) < tol) ? 0.0 : error,
+                        Mensaje = "Convergió correctamente"
+                    };
+                }
 
-                // Actualizar intervalo por cambio de signo
+                // Actualizar intervalo
                 if (fxi * fxr > 0)
                 {
                     xi = xr;
@@ -64,37 +73,43 @@ namespace AnalisisNumerico2025Poggi
                 xrAnterior = xr;
             }
 
-            // Si agotó iteraciones, devolvemos la mejor aproximación
-            return xr;
+            return new ResultadoRaiz
+            {
+                Raiz = xr,
+                Iteraciones = maxIter,
+                Error = error,
+                Mensaje = "No convergió: se alcanzó el máximo de iteraciones"
+            };
         }
 
-        /// <summary>
-        /// Calcula xr según el método cerrado elegido.
-        /// Bisección: (xi + xd)/2
-        /// Regla Falsa: (f(xd)*xi - f(xi)*xd)/(f(xd) - f(xi))
-        /// </summary>
-        private double CalcularXr(ClosedMethod metodo, double xi, double xd)
+        private double CalcularXr(ClosedMethod metodo, double xi, double xd, double fxi, double fxd)
         {
             switch (metodo)
             {
                 case ClosedMethod.Biseccion:
                     return (xi + xd) / 2.0;
+
                 case ClosedMethod.ReglaFalsa:
-                    double fxi = calc.EvaluaFx(xi);
-                    double fxd = calc.EvaluaFx(xd);
-                    return (fxd * xi - fxi * xd) / (fxd - fxi);
+                    double denom = fxd - fxi;
+                    if (Math.Abs(denom) < 1e-14)
+                    {
+                        // muy plano; volver a punto medio para evitar explosiones numéricas
+                        return (xi + xd) / 2.0;
+                    }
+                    return (fxd * xi - fxi * xd) / denom;
+
                 default:
                     throw new ArgumentOutOfRangeException(nameof(metodo));
             }
         }
 
-        // Wrappers “directos” por si querés llamar sin enum:
-        public double Biseccion(string fx, char var, double a, double b,
-                                double tol = 1e-6, int maxIter = 100)
+        // Wrappers
+        public ResultadoRaiz Biseccion(string fx, char var, double a, double b,
+                                       double tol = 1e-6, int maxIter = 100)
             => Resolver(fx, var, a, b, tol, maxIter, ClosedMethod.Biseccion);
 
-        public double ReglaFalsa(string fx, char var, double a, double b,
-                                 double tol = 1e-6, int maxIter = 100)
+        public ResultadoRaiz ReglaFalsa(string fx, char var, double a, double b,
+                                        double tol = 1e-6, int maxIter = 100)
             => Resolver(fx, var, a, b, tol, maxIter, ClosedMethod.ReglaFalsa);
     }
 }

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace AnalisisNumerico2025Poggi
 {
-    public class Resultado
+    public class ResultadoRaiz
     {
         public double Raiz { get; set; }
-        public string Message { get; set; }
-        public List<Datos> Iteraciones { get; set; } = new List<Datos>();
+        public int Iteraciones { get; set; }
+        public double Error { get; set; }
+        public string Mensaje { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Windows.Forms;
 using AnalisisNumerico2025Poggi;
 
@@ -6,7 +7,7 @@ namespace InterfazDeUsuario
 {
     public partial class RaicesForm : Form
     {
-        private Solver solver = new Solver();
+        private readonly MetodosCerrados solver = new MetodosCerrados();
 
         public RaicesForm()
         {
@@ -23,57 +24,83 @@ namespace InterfazDeUsuario
 
         private void ActualizarCampos()
         {
-            string metodo = cmbMetodo.SelectedItem?.ToString() ?? "";
-            if (metodo.Contains("Newton-Raphson"))
+            string metodo = cmbMetodo.SelectedItem?.ToString() ?? string.Empty;
+
+            // Newton: solo Xi
+            if (metodo.IndexOf("Newton", StringComparison.OrdinalIgnoreCase) >= 0)
             {
                 txtXi.Enabled = true;
                 txtXd.Enabled = false;
-                txtXd.Text = "";
+                txtXd.Text = string.Empty; // limpiar por claridad
             }
-            else if (metodo.Contains("Secante"))
-            {
-                txtXi.Enabled = true;
-                txtXd.Enabled = true;
-            }
-            else 
+            // Secante y cerrados usan Xi y Xd
+            else
             {
                 txtXi.Enabled = true;
                 txtXd.Enabled = true;
             }
         }
 
+        // =========================
+        // Helpers de parseo robusto
+        // =========================
+
+        private static double ParseDouble(string s, string nombreCampo)
+        {
+            if (string.IsNullOrWhiteSpace(s))
+                throw new ArgumentException($"Ingrese un valor para {nombreCampo}.");
+
+            // Acepta coma o punto
+            s = s.Trim().Replace(',', '.');
+
+            if (double.TryParse(s, NumberStyles.Float | NumberStyles.AllowThousands, CultureInfo.InvariantCulture, out double v))
+                return v;
+
+            // Intento con cultura actual por si acaso
+            if (double.TryParse(s, NumberStyles.Float | NumberStyles.AllowThousands, CultureInfo.CurrentCulture, out v))
+                return v;
+
+            throw new ArgumentException($"Ingrese un valor numérico válido para {nombreCampo}.");
+        }
+
+        private static int ParseInt(string s, string nombreCampo)
+        {
+            if (string.IsNullOrWhiteSpace(s))
+                throw new ArgumentException($"Ingrese un valor para {nombreCampo}.");
+
+            if (!int.TryParse(s.Trim(), NumberStyles.Integer, CultureInfo.CurrentCulture, out int v) || v <= 0)
+                throw new ArgumentException($"{nombreCampo} debe ser un entero > 0.");
+
+            return v;
+        }
+
         private bool ValidarCampos(out string mensaje)
         {
-            mensaje = "";
+            mensaje = string.Empty;
+
             if (string.IsNullOrWhiteSpace(txtFuncion.Text))
             {
-                mensaje = "Debe ingresar una función.";
+                mensaje = "Debe ingresar una función (ej: x^5 + 0.25*x^2 - 1).";
                 return false;
             }
-            if (string.IsNullOrWhiteSpace(txtIteraciones.Text) || !int.TryParse(txtIteraciones.Text, out int iter) || iter <= 0)
+
+            // Solo verificamos que exista Xi y (si aplica) Xd. La validación numérica exacta se hace al parsear.
+            if (string.IsNullOrWhiteSpace(txtXi.Text))
             {
-                mensaje = "Ingrese un número válido de iteraciones (>0).";
+                mensaje = "Ingrese Xi.";
                 return false;
             }
-            if (string.IsNullOrWhiteSpace(txtTolerancia.Text) || !double.TryParse(txtTolerancia.Text.Replace(',', '.'), out double tol) || tol <= 0)
+
+            string metodo = cmbMetodo.SelectedItem?.ToString() ?? string.Empty;
+            if (metodo.IndexOf("Newton", StringComparison.OrdinalIgnoreCase) < 0)
             {
-                mensaje = "Ingrese una tolerancia válida (>0).";
-                return false;
-            }
-            string metodo = cmbMetodo.SelectedItem?.ToString() ?? "";
-            if (string.IsNullOrWhiteSpace(txtXi.Text) || !double.TryParse(txtXi.Text.Replace(',', '.'), out _))
-            {
-                mensaje = "Ingrese un valor numérico válido para Xi.";
-                return false;
-            }
-            if (!metodo.Contains("Newton-Raphson"))
-            {
-                if (string.IsNullOrWhiteSpace(txtXd.Text) || !double.TryParse(txtXd.Text.Replace(',', '.'), out _))
+                if (string.IsNullOrWhiteSpace(txtXd.Text))
                 {
-                    mensaje = "Ingrese un valor numérico válido para Xd.";
+                    mensaje = "Ingrese Xd.";
                     return false;
                 }
             }
+
             return true;
         }
 
@@ -81,59 +108,92 @@ namespace InterfazDeUsuario
         {
             try
             {
+                // Validación básica de presencia
                 if (!ValidarCampos(out string mensajeValidacion))
                 {
                     MessageBox.Show(mensajeValidacion, "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                string funcion = txtFuncion.Text;
-                double xi = double.Parse(txtXi.Text.Replace(',', '.'));
-                double xd = txtXd.Enabled && !string.IsNullOrWhiteSpace(txtXd.Text) ? double.Parse(txtXd.Text.Replace(',', '.')) : 0;
-                double tol = double.Parse(txtTolerancia.Text.Replace(',', '.'));
-                int iter = int.Parse(txtIteraciones.Text);
+                string funcion = txtFuncion.Text.Trim();
 
-                string metodo = cmbMetodo.SelectedItem.ToString();
+                // Defaults si vienen vacíos
+                double tol = string.IsNullOrWhiteSpace(txtTolerancia.Text)
+                    ? 1e-6
+                    : ParseDouble(txtTolerancia.Text, "Tolerancia");
+
+                int maxIter = string.IsNullOrWhiteSpace(txtIteraciones.Text)
+                    ? 100
+                    : ParseInt(txtIteraciones.Text, "Máx. iteraciones");
+
+                // Parse de Xi y Xd (si corresponde)
+                double xi = ParseDouble(txtXi.Text, "Xi");
+                double xd = 0.0;
+                string metodoSel = cmbMetodo.SelectedItem?.ToString() ?? string.Empty;
+
+                bool usaXd = metodoSel.IndexOf("Secante", StringComparison.OrdinalIgnoreCase) >= 0
+                             || metodoSel.IndexOf("Bisección", StringComparison.OrdinalIgnoreCase) >= 0
+                             || metodoSel.IndexOf("Regla Falsa", StringComparison.OrdinalIgnoreCase) >= 0;
+
+                if (usaXd && txtXd.Enabled && !string.IsNullOrWhiteSpace(txtXd.Text))
+                    xd = ParseDouble(txtXd.Text, "Xd");
+
+                // Limpiar UI de salida
+                txtRaiz.Text = "";
+                txtMensaje.Text = "";
+                txtIteracionesRes.Text = "";
+                txtErrorRes.Text = "";
+
                 double raiz = 0;
                 string mensaje = "";
                 int iteracionesRealizadas = 0;
                 double error = 0;
 
-                if (metodo.Contains("Bisección"))
+                // Dispatch por método
+                if (metodoSel.IndexOf("Bisección", StringComparison.OrdinalIgnoreCase) >= 0)
                 {
-                    raiz = solver.Biseccion(funcion, 'x', xi, xd, tol, iter);
-                    mensaje = "Bisección finalizada";
+                    var r = solver.Biseccion(funcion, 'x', xi, xd, tol, maxIter);
+                    raiz = r.Raiz;
+                    mensaje = r.Mensaje;
+                    iteracionesRealizadas = r.Iteraciones;
+                    error = r.Error;
                 }
-                else if (metodo.Contains("Regla Falsa"))
+                else if (metodoSel.IndexOf("Regla Falsa", StringComparison.OrdinalIgnoreCase) >= 0)
                 {
-                    raiz = solver.ReglaFalsa(funcion, 'x', xi, xd, tol, iter);
-                    mensaje = "Regla Falsa finalizada";
+                    var r = solver.ReglaFalsa(funcion, 'x', xi, xd, tol, maxIter);
+                    raiz = r.Raiz;
+                    mensaje = r.Mensaje;
+                    iteracionesRealizadas = r.Iteraciones;
+                    error = r.Error;
                 }
-                else if (metodo.Contains("Newton-Raphson"))
+                else if (metodoSel.IndexOf("Newton", StringComparison.OrdinalIgnoreCase) >= 0)
                 {
                     var abiertos = new MetodosAbiertos(funcion);
-                    var resultado = abiertos.NewtonRaphson(xi, tol, iter);
-                    raiz = resultado.Raiz;
-                    mensaje = resultado.Message;
-                    iteracionesRealizadas = resultado.Iteraciones.Count;
-                    if (resultado.Iteraciones.Count > 0)
-                        error = resultado.Iteraciones[^1].Error;
+                    var r = abiertos.NewtonRaphson(xi, tol, maxIter);
+                    raiz = r.Raiz;
+                    mensaje = r.Message;
+                    iteracionesRealizadas = r.Iteraciones.Count;
+                    error = (r.Iteraciones.Count > 0) ? r.Iteraciones[^1].Error : 0.0;
                 }
-                else if (metodo.Contains("Secante"))
+                else if (metodoSel.IndexOf("Secante", StringComparison.OrdinalIgnoreCase) >= 0)
                 {
                     var abiertos = new MetodosAbiertos(funcion);
-                    var resultado = abiertos.Secante(xi, xd, tol, iter);
-                    raiz = resultado.Raiz;
-                    mensaje = resultado.Message;
-                    iteracionesRealizadas = resultado.Iteraciones.Count;
-                    if (resultado.Iteraciones.Count > 0)
-                        error = resultado.Iteraciones[^1].Error;
+                    var r = abiertos.Secante(xi, xd, tol, maxIter);
+                    raiz = r.Raiz;
+                    mensaje = r.Message;
+                    iteracionesRealizadas = r.Iteraciones.Count;
+                    error = (r.Iteraciones.Count > 0) ? r.Iteraciones[^1].Error : 0.0;
+                }
+                else
+                {
+                    throw new NotSupportedException("Seleccione un método válido.");
                 }
 
-                txtRaiz.Text = raiz.ToString("G10");
+                // Mostrar resultados
+                txtRaiz.Text = raiz.ToString("G10", CultureInfo.InvariantCulture);
                 txtMensaje.Text = mensaje;
-                txtIteracionesRes.Text = iteracionesRealizadas.ToString();
-                txtErrorRes.Text = error.ToString("G10");
+                txtIteracionesRes.Text = iteracionesRealizadas.ToString(CultureInfo.InvariantCulture);
+                txtErrorRes.Text = error.ToString("G10", CultureInfo.InvariantCulture);
             }
             catch (Exception ex)
             {
