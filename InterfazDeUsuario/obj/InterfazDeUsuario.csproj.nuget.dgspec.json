@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj": {}
+    "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj": {
+    "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
+        "projectUniqueName": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
         "projectName": "AnalisisNumerico2025Poggi",
-        "projectPath": "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\obj\\",
+        "projectPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,20 +72,20 @@
         }
       }
     },
-    "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj": {
+    "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj",
+        "projectUniqueName": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj",
         "projectName": "InterfazDeUsuario",
-        "projectPath": "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\obj\\",
+        "projectPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,8 +101,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj": {
-                "projectPath": "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj"
+              "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj": {
+                "projectPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj"
               }
             }
           }
@@ -121,6 +121,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.3405.78, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

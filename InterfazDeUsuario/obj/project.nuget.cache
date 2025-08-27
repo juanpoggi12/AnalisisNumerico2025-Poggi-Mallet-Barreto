@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "anTNd6Ds5d0=",
+  "dgSpecHash": "t0oHmH6szVo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\juani\\OneDrive\\Escritorio\\Nueva carpeta (2)\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\InterfazDeUsuario.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.web.webview2\\1.0.3405.78\\microsoft.web.webview2.1.0.3405.78.nupkg.sha512"
+  ],
   "logs": []
 }

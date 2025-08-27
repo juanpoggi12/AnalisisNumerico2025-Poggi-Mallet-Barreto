@@ -15,6 +15,9 @@ namespace InterfazDeUsuario
             cmbMetodo.SelectedIndexChanged += cmbMetodo_SelectedIndexChanged;
             cmbMetodo.SelectedIndex = 0;
             ActualizarCampos();
+
+            btnGraficar.Click += btnGraficar_Click;
+
         }
 
         private void cmbMetodo_SelectedIndexChanged(object sender, EventArgs e)
@@ -198,6 +201,40 @@ namespace InterfazDeUsuario
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private async void btnGraficar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string funcion = txtFuncion.Text.Trim();
+                string raiz = txtRaiz.Text.Trim().Replace(',', '.');
+
+                if (string.IsNullOrWhiteSpace(funcion))
+                {
+                    MessageBox.Show("Primero ingrese una función.", "Validación",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (string.IsNullOrWhiteSpace(raiz))
+                {
+                    MessageBox.Show("Primero calcule la raíz antes de graficar.", "Validación",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                string funcionUrl = Uri.EscapeDataString(funcion);
+                string url = $"https://www.geogebra.org/calculator?" +
+                             $"command=Function[{funcionUrl},-10,10]" +
+                             $"&command=Point[({raiz},0)]";
+
+                await webViewGeoGebra.EnsureCoreWebView2Async(null);
+                webViewGeoGebra.CoreWebView2.Navigate(url);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al graficar: " + ex.Message, "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
