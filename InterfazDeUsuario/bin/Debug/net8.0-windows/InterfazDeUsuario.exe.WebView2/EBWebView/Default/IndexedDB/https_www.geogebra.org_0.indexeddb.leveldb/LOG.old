@@ -1,0 +1,6 @@
+2025/08/28-10:03:19.668 231c Creating DB C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\IndexedDB\https_www.geogebra.org_0.indexeddb.leveldb since it was missing.
+2025/08/28-10:03:19.724 231c Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\IndexedDB\https_www.geogebra.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/28-10:03:19.761 231c Level-0 table #5: started
+2025/08/28-10:03:19.786 231c Level-0 table #5: 748 bytes OK
+2025/08/28-10:03:19.797 231c Delete type=0 #3
+2025/08/28-10:03:19.798 45e4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

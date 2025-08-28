@@ -82,3 +82,37 @@ D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Ba
 D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.pdb
 D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.genruntimeconfig.cache
 D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\ref\InterfazDeUsuario.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\AnalisisNumerico2025Poggi.deps.json
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\AnalisisNumerico2025Poggi.runtimeconfig.json
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\AnalisisNumerico2025Poggi.exe
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.deps.json
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.runtimeconfig.json
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.pdb
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\AnalisisNumerico2025Poggi.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\Calculus.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\AnalisisNumerico2025Poggi.pdb
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.csproj.AssemblyReference.cache
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.RaicesForm.resources
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.csproj.GenerateResource.cache
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.AssemblyInfoInputs.cache
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.AssemblyInfo.cs
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.csproj.CoreCompileInputs.cache
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.sourcelink.json
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\Interfaz.F19302CA.Up2Date
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\refint\InterfazDeUsuario.dll
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.pdb
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.genruntimeconfig.cache
+C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\ref\InterfazDeUsuario.dll

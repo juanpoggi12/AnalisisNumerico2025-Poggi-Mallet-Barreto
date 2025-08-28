@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj": {}
+    "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj": {
+    "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
+        "projectUniqueName": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
         "projectName": "AnalisisNumerico2025Poggi",
-        "projectPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\obj\\",
+        "projectPath": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
+        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

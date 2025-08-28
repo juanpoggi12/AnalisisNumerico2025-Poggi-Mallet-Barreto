@@ -7,7 +7,6 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
         private Microsoft.Web.WebView2.WinForms.WebView2 webViewGeoGebra;
-        private System.Windows.Forms.Button btnGraficar;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -52,43 +51,43 @@
             txtIteracionesRes = new TextBox();
             lblErrorRes = new Label();
             txtErrorRes = new TextBox();
+            webViewGeoGebra = new Microsoft.Web.WebView2.WinForms.WebView2();
+            ((System.ComponentModel.ISupportInitialize)webViewGeoGebra).BeginInit();
             SuspendLayout();
             // 
             // lblIngresarFuncion
             // 
             lblIngresarFuncion.AutoSize = true;
             lblIngresarFuncion.BackColor = SystemColors.MenuHighlight;
-            lblIngresarFuncion.Location = new Point(35, 32);
+            lblIngresarFuncion.Location = new Point(38, 83);
             lblIngresarFuncion.Name = "lblIngresarFuncion";
-            lblIngresarFuncion.Size = new Size(95, 15);
+            lblIngresarFuncion.Size = new Size(117, 20);
             lblIngresarFuncion.TabIndex = 0;
             lblIngresarFuncion.Text = "Ingresar Función";
             // 
             // txtFuncion
             // 
-            txtFuncion.Location = new Point(33, 57);
-            txtFuncion.Margin = new Padding(3, 2, 3, 2);
+            txtFuncion.Location = new Point(38, 106);
             txtFuncion.Name = "txtFuncion";
-            txtFuncion.Size = new Size(242, 23);
+            txtFuncion.Size = new Size(276, 27);
             txtFuncion.TabIndex = 1;
             // 
             // cmbMetodo
             // 
             cmbMetodo.FormattingEnabled = true;
             cmbMetodo.Items.AddRange(new object[] { "Método Cerrado: Bisección", "Método Cerrado: Regla Falsa", "Método Abierto: Newton-Raphson", "Método Abierto: Secante" });
-            cmbMetodo.Location = new Point(35, 121);
-            cmbMetodo.Margin = new Padding(3, 2, 3, 2);
+            cmbMetodo.Location = new Point(40, 179);
             cmbMetodo.Name = "cmbMetodo";
-            cmbMetodo.Size = new Size(240, 23);
+            cmbMetodo.Size = new Size(274, 28);
             cmbMetodo.TabIndex = 2;
             // 
             // lblMetodo
             // 
             lblMetodo.AutoSize = true;
             lblMetodo.BackColor = SystemColors.Control;
-            lblMetodo.Location = new Point(35, 92);
+            lblMetodo.Location = new Point(40, 156);
             lblMetodo.Name = "lblMetodo";
-            lblMetodo.Size = new Size(112, 15);
+            lblMetodo.Size = new Size(142, 20);
             lblMetodo.TabIndex = 3;
             lblMetodo.Text = "Seleccionar Método";
             // 
@@ -96,45 +95,43 @@
             // 
             lblIteraciones.AutoSize = true;
             lblIteraciones.BackColor = SystemColors.GradientActiveCaption;
-            lblIteraciones.Location = new Point(35, 159);
+            lblIteraciones.Location = new Point(40, 236);
             lblIteraciones.Name = "lblIteraciones";
-            lblIteraciones.Size = new Size(64, 15);
+            lblIteraciones.Size = new Size(81, 20);
             lblIteraciones.TabIndex = 4;
             lblIteraciones.Text = "Iteraciones";
             // 
             // txtIteraciones
             // 
-            txtIteraciones.Location = new Point(35, 187);
-            txtIteraciones.Margin = new Padding(3, 2, 3, 2);
+            txtIteraciones.Location = new Point(38, 259);
             txtIteraciones.Name = "txtIteraciones";
-            txtIteraciones.Size = new Size(240, 23);
+            txtIteraciones.Size = new Size(274, 27);
             txtIteraciones.TabIndex = 5;
             // 
             // lblTolerancia
             // 
             lblTolerancia.AutoSize = true;
             lblTolerancia.BackColor = SystemColors.GradientActiveCaption;
-            lblTolerancia.Location = new Point(35, 224);
+            lblTolerancia.Location = new Point(40, 315);
             lblTolerancia.Name = "lblTolerancia";
-            lblTolerancia.Size = new Size(61, 15);
+            lblTolerancia.Size = new Size(77, 20);
             lblTolerancia.TabIndex = 6;
             lblTolerancia.Text = "Tolerancia";
             // 
             // txtTolerancia
             // 
-            txtTolerancia.Location = new Point(35, 254);
-            txtTolerancia.Margin = new Padding(3, 2, 3, 2);
+            txtTolerancia.Location = new Point(38, 341);
             txtTolerancia.Name = "txtTolerancia";
-            txtTolerancia.Size = new Size(240, 23);
+            txtTolerancia.Size = new Size(274, 27);
             txtTolerancia.TabIndex = 7;
             // 
             // lblIntervalo
             // 
             lblIntervalo.AutoSize = true;
             lblIntervalo.BackColor = SystemColors.GradientActiveCaption;
-            lblIntervalo.Location = new Point(91, 298);
+            lblIntervalo.Location = new Point(540, 83);
             lblIntervalo.Name = "lblIntervalo";
-            lblIntervalo.Size = new Size(117, 15);
+            lblIntervalo.Size = new Size(148, 20);
             lblIntervalo.TabIndex = 8;
             lblIntervalo.Text = "Ingrese los intervalos";
             // 
@@ -142,9 +139,9 @@
             // 
             lblXi.AutoSize = true;
             lblXi.BackColor = SystemColors.InactiveCaption;
-            lblXi.Location = new Point(61, 337);
+            lblXi.Location = new Point(474, 109);
             lblXi.Name = "lblXi";
-            lblXi.Size = new Size(17, 15);
+            lblXi.Size = new Size(22, 20);
             lblXi.TabIndex = 9;
             lblXi.Text = "Xi";
             // 
@@ -152,36 +149,33 @@
             // 
             lblXd.AutoSize = true;
             lblXd.BackColor = SystemColors.ActiveCaption;
-            lblXd.Location = new Point(239, 337);
+            lblXd.Location = new Point(727, 109);
             lblXd.Name = "lblXd";
-            lblXd.Size = new Size(21, 15);
+            lblXd.Size = new Size(27, 20);
             lblXd.TabIndex = 10;
             lblXd.Text = "Xd";
             // 
             // txtXi
             // 
-            txtXi.Location = new Point(14, 365);
-            txtXi.Margin = new Padding(3, 2, 3, 2);
+            txtXi.Location = new Point(421, 132);
             txtXi.Name = "txtXi";
-            txtXi.Size = new Size(124, 23);
+            txtXi.Size = new Size(141, 27);
             txtXi.TabIndex = 11;
             // 
             // txtXd
             // 
-            txtXd.Location = new Point(181, 365);
-            txtXd.Margin = new Padding(3, 2, 3, 2);
+            txtXd.Location = new Point(666, 132);
             txtXd.Name = "txtXd";
-            txtXd.Size = new Size(129, 23);
+            txtXd.Size = new Size(147, 27);
             txtXd.TabIndex = 12;
             // 
             // buttonCalcular
             // 
             buttonCalcular.AutoSize = true;
             buttonCalcular.BackColor = SystemColors.AppWorkspace;
-            buttonCalcular.Location = new Point(68, 423);
-            buttonCalcular.Margin = new Padding(3, 2, 3, 2);
+            buttonCalcular.Location = new Point(511, 170);
             buttonCalcular.Name = "buttonCalcular";
-            buttonCalcular.Size = new Size(194, 34);
+            buttonCalcular.Size = new Size(222, 45);
             buttonCalcular.TabIndex = 13;
             buttonCalcular.Text = "Calcular!!";
             buttonCalcular.UseVisualStyleBackColor = false;
@@ -190,79 +184,90 @@
             // lblRaiz
             // 
             lblRaiz.AutoSize = true;
-            lblRaiz.Location = new Point(350, 29);
+            lblRaiz.Location = new Point(361, 248);
             lblRaiz.Name = "lblRaiz";
-            lblRaiz.Size = new Size(28, 15);
+            lblRaiz.Size = new Size(37, 20);
             lblRaiz.TabIndex = 14;
             lblRaiz.Text = "Raíz";
             // 
             // txtRaiz
             // 
-            txtRaiz.Location = new Point(490, 29);
-            txtRaiz.Margin = new Padding(3, 2, 3, 2);
+            txtRaiz.Location = new Point(562, 236);
             txtRaiz.Name = "txtRaiz";
             txtRaiz.ReadOnly = true;
-            txtRaiz.Size = new Size(176, 23);
+            txtRaiz.Size = new Size(300, 27);
             txtRaiz.TabIndex = 15;
             // 
             // lblMensaje
             // 
             lblMensaje.AutoSize = true;
-            lblMensaje.Location = new Point(350, 121);
+            lblMensaje.Location = new Point(361, 357);
             lblMensaje.Name = "lblMensaje";
-            lblMensaje.Size = new Size(51, 15);
+            lblMensaje.Size = new Size(64, 20);
             lblMensaje.TabIndex = 16;
             lblMensaje.Text = "Mensaje";
+            lblMensaje.Click += lblMensaje_Click;
             // 
             // txtMensaje
             // 
-            txtMensaje.Location = new Point(427, 118);
-            txtMensaje.Margin = new Padding(3, 2, 3, 2);
+            txtMensaje.Location = new Point(562, 357);
             txtMensaje.Name = "txtMensaje";
             txtMensaje.ReadOnly = true;
-            txtMensaje.Size = new Size(263, 23);
+            txtMensaje.Size = new Size(300, 27);
             txtMensaje.TabIndex = 17;
             // 
             // lblIteracionesRes
             // 
             lblIteracionesRes.AutoSize = true;
-            lblIteracionesRes.Location = new Point(350, 62);
+            lblIteracionesRes.Location = new Point(361, 282);
             lblIteracionesRes.Name = "lblIteracionesRes";
-            lblIteracionesRes.Size = new Size(118, 15);
+            lblIteracionesRes.Size = new Size(152, 20);
             lblIteracionesRes.TabIndex = 18;
             lblIteracionesRes.Text = "Iteraciones realizadas";
+            lblIteracionesRes.Click += lblIteracionesRes_Click;
             // 
             // txtIteracionesRes
             // 
-            txtIteracionesRes.Location = new Point(490, 62);
-            txtIteracionesRes.Margin = new Padding(3, 2, 3, 2);
+            txtIteracionesRes.Location = new Point(562, 275);
             txtIteracionesRes.Name = "txtIteracionesRes";
             txtIteracionesRes.ReadOnly = true;
-            txtIteracionesRes.Size = new Size(176, 23);
+            txtIteracionesRes.Size = new Size(300, 27);
             txtIteracionesRes.TabIndex = 19;
             // 
             // lblErrorRes
             // 
             lblErrorRes.AutoSize = true;
-            lblErrorRes.Location = new Point(350, 92);
+            lblErrorRes.Location = new Point(361, 322);
             lblErrorRes.Name = "lblErrorRes";
-            lblErrorRes.Size = new Size(32, 15);
+            lblErrorRes.Size = new Size(41, 20);
             lblErrorRes.TabIndex = 20;
             lblErrorRes.Text = "Error";
             // 
             // txtErrorRes
             // 
-            txtErrorRes.Location = new Point(490, 92);
-            txtErrorRes.Margin = new Padding(3, 2, 3, 2);
+            txtErrorRes.Location = new Point(562, 315);
             txtErrorRes.Name = "txtErrorRes";
             txtErrorRes.ReadOnly = true;
-            txtErrorRes.Size = new Size(176, 23);
+            txtErrorRes.Size = new Size(300, 27);
             txtErrorRes.TabIndex = 21;
+            // 
+            // webViewGeoGebra
+            // 
+            webViewGeoGebra.AllowExternalDrop = true;
+            webViewGeoGebra.CreationProperties = null;
+            webViewGeoGebra.DefaultBackgroundColor = Color.White;
+            webViewGeoGebra.Location = new Point(21, 417);
+            webViewGeoGebra.Margin = new Padding(3, 4, 3, 4);
+            webViewGeoGebra.Name = "webViewGeoGebra";
+            webViewGeoGebra.Size = new Size(869, 437);
+            webViewGeoGebra.TabIndex = 50;
+            webViewGeoGebra.ZoomFactor = 1D;
             // 
             // RaicesForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(914, 867);
             Controls.Add(lblRaiz);
             Controls.Add(txtRaiz);
             Controls.Add(lblMensaje);
@@ -285,49 +290,11 @@
             Controls.Add(cmbMetodo);
             Controls.Add(txtFuncion);
             Controls.Add(lblIngresarFuncion);
-
-            this.webViewGeoGebra = new Microsoft.Web.WebView2.WinForms.WebView2();
-            ((System.ComponentModel.ISupportInitialize)(this.webViewGeoGebra)).BeginInit();
-
-            // 
-            // RaicesForm
-            // 
-            this.ClientSize = new System.Drawing.Size(800, 650);
-            this.Name = "RaicesForm";
-            this.Text = "RaicesForm";
-            this.btnGraficar = new System.Windows.Forms.Button();
-
-            // 
-            // btnGraficar
-            // 
-            this.btnGraficar.AutoSize = true;
-            this.btnGraficar.Location = new System.Drawing.Point(320, 160); // ajustá posición si querés
-            this.btnGraficar.Name = "btnGraficar";
-            this.btnGraficar.Size = new System.Drawing.Size(120, 46);
-            this.btnGraficar.TabIndex = 51;
-            this.btnGraficar.Text = "Graficar";
-            this.btnGraficar.UseVisualStyleBackColor = true;
-            this.btnGraficar.Click += new System.EventHandler(this.btnGraficar_Click);
-
-            // 
-            // webViewGeoGebra
-            // 
-            this.webViewGeoGebra.AllowExternalDrop = true;
-            this.webViewGeoGebra.CreationProperties = null;
-            this.webViewGeoGebra.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webViewGeoGebra.Location = new System.Drawing.Point(20, 320); // ponelo grande abajo/derecha
-            this.webViewGeoGebra.Name = "webViewGeoGebra";
-            this.webViewGeoGebra.Size = new System.Drawing.Size(760, 300);
-            this.webViewGeoGebra.TabIndex = 50;
-            this.webViewGeoGebra.ZoomFactor = 1D;
-
-            // Agregar a Controls
-            this.Controls.Add(this.webViewGeoGebra);
-            this.webViewGeoGebra.SendToBack();
-            this.Controls.Add(this.btnGraficar);
-
-            ((System.ComponentModel.ISupportInitialize)(this.webViewGeoGebra)).EndInit();
-
+            Controls.Add(webViewGeoGebra);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "RaicesForm";
+            Text = "RaicesForm";
+            ((System.ComponentModel.ISupportInitialize)webViewGeoGebra).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

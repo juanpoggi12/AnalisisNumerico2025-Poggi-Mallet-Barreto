@@ -1,0 +1,17 @@
+2025/08/28-11:12:56.328 6910 Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/08/28-11:12:56.345 6910 Recovering log #75
+2025/08/28-11:12:56.348 6910 Level-0 table #78: started
+2025/08/28-11:12:56.362 6910 Level-0 table #78: 115606 bytes OK
+2025/08/28-11:12:56.376 6910 Delete type=0 #75
+2025/08/28-11:12:56.380 3488 Compacting 4@0 + 1@1 files
+2025/08/28-11:12:56.410 3488 Generated table #80@0: 4 keys, 115637 bytes
+2025/08/28-11:12:56.410 3488 Compacted 4@0 + 1@1 files => 115637 bytes
+2025/08/28-11:12:56.413 3488 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/28-11:12:56.416 3488 Delete type=2 #70
+2025/08/28-11:12:56.417 3488 Delete type=2 #72
+2025/08/28-11:12:56.417 3488 Delete type=2 #74
+2025/08/28-11:12:56.417 3488 Delete type=2 #76
+2025/08/28-11:12:56.417 3488 Delete type=2 #78
+2025/08/28-11:13:10.824 6910 Level-0 table #82: started
+2025/08/28-11:13:10.841 6910 Level-0 table #82: 109138 bytes OK
+2025/08/28-11:13:10.849 6910 Delete type=0 #79
