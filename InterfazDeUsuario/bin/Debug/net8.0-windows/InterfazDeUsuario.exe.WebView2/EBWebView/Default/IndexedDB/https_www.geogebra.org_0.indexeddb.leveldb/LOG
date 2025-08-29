@@ -1,7 +1,14 @@
-2025/08/28-11:12:57.317 33d0 Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\IndexedDB\https_www.geogebra.org_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/28-11:12:57.320 33d0 Recovering log #4
-2025/08/28-11:12:57.322 33d0 Reusing old log C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\IndexedDB\https_www.geogebra.org_0.indexeddb.leveldb/000004.log 
-2025/08/28-11:12:57.361 2d4c Level-0 table #8: started
-2025/08/28-11:12:57.372 2d4c Level-0 table #8: 3477 bytes OK
-2025/08/28-11:12:57.379 2d4c Delete type=0 #4
-2025/08/28-11:12:57.381 236c Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/28-15:15:33.359 5dc4 Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\IndexedDB\https_www.geogebra.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/28-15:15:33.360 5dc4 Recovering log #10
+2025/08/28-15:15:33.361 5dc4 Reusing old log C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\IndexedDB\https_www.geogebra.org_0.indexeddb.leveldb/000010.log 
+2025/08/28-15:15:33.361 5dc4 Delete type=2 #8
+2025/08/28-15:15:33.380 5d58 Level-0 table #15: started
+2025/08/28-15:15:33.386 5d58 Level-0 table #15: 2052 bytes OK
+2025/08/28-15:15:33.392 5d58 Delete type=0 #10
+2025/08/28-15:15:33.393 5dc4 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 240 : 1
+2025/08/28-15:15:33.393 5dc4 Compacting 1@0 + 1@1 files
+2025/08/28-15:15:33.397 5dc4 Generated table #16@0: 78 keys, 2029 bytes
+2025/08/28-15:15:33.397 5dc4 Compacted 1@0 + 1@1 files => 2029 bytes
+2025/08/28-15:15:33.402 5dc4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/28-15:15:33.403 5dc4 Delete type=2 #15
+2025/08/28-15:15:33.403 5dc4 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 240 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -14,6 +14,9 @@ namespace InterfazDeUsuario
         public RaicesForm()
         {
             InitializeComponent();
+            this.Size = new Size(1300, 900);
+            // arrancar centrado
+            this.StartPosition = FormStartPosition.CenterScreen;
             ApplyTheme();
             InstallGradientBackground();
             AddHeader();
@@ -30,7 +33,7 @@ namespace InterfazDeUsuario
         {
             // Fuente y fondo general
             this.Font = new Font("Segoe UI", 10F, FontStyle.Regular);
-            this.BackColor = Color.FromArgb(246, 248, 251); // gris suave
+            this.BackColor = Color.FromArgb(246, 248, 255); // gris suave
 
             // Botón calcular estilo "moderno"
             buttonCalcular.FlatStyle = FlatStyle.Flat;
@@ -41,6 +44,22 @@ namespace InterfazDeUsuario
             buttonCalcular.Width = 200;
             buttonCalcular.Text = "Calcular";
             buttonCalcular.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+
+            StyleBadge(lblIngresarFuncion, Color.FromArgb(227, 242, 253), Color.FromArgb(25, 118, 210)); // “INGRESAR FUNCIÓN”
+            StyleBadge(lblMetodo, Color.FromArgb(227, 242, 253), Color.FromArgb(25, 118, 210));
+            StyleBadge(lblIteraciones, Color.FromArgb(227, 242, 253), Color.FromArgb(25, 118, 210));
+            StyleBadge(lblTolerancia, Color.FromArgb(227, 242, 253), Color.FromArgb(25, 118, 210));
+            StyleBadge(lblIntervalo, Color.FromArgb(227, 242, 253), Color.FromArgb(25, 118, 210));
+
+            // Xi / Xd (chips grises)
+            StyleBadge(lblXi, Color.FromArgb(236, 239, 241), Color.FromArgb(55, 71, 79), 8, new Padding(6, 3, 6, 3));
+            StyleBadge(lblXd, Color.FromArgb(236, 239, 241), Color.FromArgb(55, 71, 79), 8, new Padding(6, 3, 6, 3));
+
+            // Resultados con código de color
+            StyleBadge(lblRaiz, Color.FromArgb(232, 245, 233), Color.FromArgb(27, 94, 32));   // verde suave
+            StyleBadge(lblIteracionesRes, Color.FromArgb(232, 245, 233), Color.FromArgb(27, 94, 32));
+            StyleBadge(lblErrorRes, Color.FromArgb(255, 235, 238), Color.FromArgb(183, 28, 28));  // rojo suave
+            StyleBadge(lblMensaje, Color.FromArgb(227, 242, 253), Color.FromArgb(25, 118, 210)); // azul suave
 
             lblRaiz.ForeColor = Color.FromArgb(25, 118, 210);          // azul medio
             lblIteracionesRes.ForeColor = Color.FromArgb(25, 118, 210);
@@ -73,6 +92,59 @@ namespace InterfazDeUsuario
                 lbl.ForeColor = Color.FromArgb(33, 33, 33); // gris muy oscuro casi negro
             }
         }
+        //
+        //private void RaicesForm_Load(object sender, EventArgs e)
+        //{
+        //    // Entrada
+        //    StyleAsBadge(lblIngresarFuncion, Color.FromArgb(25, 118, 210), Color.White);
+        //    StyleAsBadge(lblMetodo, Color.FromArgb(25, 118, 210), Color.White);
+        //    StyleAsBadge(lblIteraciones, Color.FromArgb(25, 118, 210), Color.White);
+        //    StyleAsBadge(lblTolerancia, Color.FromArgb(25, 118, 210), Color.White);
+        //    StyleAsBadge(lblIntervalo, Color.FromArgb(25, 118, 210), Color.White);
+
+        //    // Xi/Xd (gris oscuro con texto blanco)
+        //    StyleAsBadge(lblXi, Color.FromArgb(97, 97, 97), Color.White);
+        //    StyleAsBadge(lblXd, Color.FromArgb(97, 97, 97), Color.White);
+
+        //    // Resultados
+        //    StyleAsBadge(lblRaiz, Color.FromArgb(56, 142, 60), Color.White);  // Verde fuerte
+        //    StyleAsBadge(lblIteracionesRes, Color.FromArgb(2, 119, 189), Color.White);  // Azul fuerte
+        //    StyleAsBadge(lblErrorRes, Color.FromArgb(211, 47, 47), Color.White);  // Rojo fuerte
+        //    StyleAsBadge(lblMensaje, Color.FromArgb(251, 192, 45), Color.Black); // Amarillo → texto negro
+        //}
+
+        //private void StyleAsBadge(Label lbl, Color back, Color fore)
+        //{
+        //    lbl.AutoSize = true;
+        //    lbl.BackColor = back;
+        //    lbl.ForeColor = fore;
+
+        //    // Punto 3: texto en mayúsculas + fuente más grande
+        //    lbl.Text = lbl.Text.ToUpperInvariant();
+        //    lbl.Font = new Font("Segoe UI", 10.5f, FontStyle.Bold);
+
+        //    lbl.Padding = new Padding(10, 6, 10, 6);
+        //    lbl.TextAlign = ContentAlignment.MiddleCenter;
+
+        //    // Punto 2: borde visible para que resalte
+        //    //lbl.BorderStyle = BorderStyle.FixedSingle;
+
+        //    // Bordes redondeados
+        //    lbl.Resize += (s, e) =>
+        //    {
+        //        using var gp = new System.Drawing.Drawing2D.GraphicsPath();
+        //        int r = 10; // radio de la esquina
+        //        var rect = new Rectangle(0, 0, lbl.Width, lbl.Height);
+        //        gp.AddArc(rect.X, rect.Y, r, r, 180, 90);
+        //        gp.AddArc(rect.Right - r, rect.Y, r, r, 270, 90);
+        //        gp.AddArc(rect.Right - r, rect.Bottom - r, r, r, 0, 90);
+        //        gp.AddArc(rect.X, rect.Bottom - r, r, r, 90, 90);
+        //        gp.CloseFigure();
+        //        lbl.Region = new Region(gp);
+        //    };
+        //}/// <summary>
+        /// /
+        /// </summary>
 
         private void InstallGradientBackground()
         {
@@ -104,7 +176,7 @@ namespace InterfazDeUsuario
             };
             var title = new Label
             {
-                Text = "Calculadora de raíces",
+                Text = "Calculadora de Raíces",
                 ForeColor = Color.White,
                 Font = new Font("Segoe UI", 12, FontStyle.Bold),
                 AutoSize = true,
@@ -369,6 +441,19 @@ namespace InterfazDeUsuario
                      MessageBoxButtons.OK, MessageBoxIcon.Error);
              }
          }*/
+        private static GraphicsPath RoundedRect(Rectangle bounds, int radius)
+        {
+            int d = Math.Max(1, Math.Min(bounds.Width, bounds.Height) * 2);
+            d = Math.Min(d, radius * 2);
+            var gp = new GraphicsPath();
+            var arc = new Rectangle(bounds.Location, new Size(d, d));
+            gp.AddArc(arc, 180, 90);
+            arc.X = bounds.Right - d; gp.AddArc(arc, 270, 90);
+            arc.Y = bounds.Bottom - d; gp.AddArc(arc, 0, 90);
+            arc.X = bounds.Left; gp.AddArc(arc, 90, 90);
+            gp.CloseFigure();
+            return gp;
+        }
 
         private async Task GraficarGeoGebraAsync(string funcion, string raicesCsv)
         {
@@ -396,12 +481,80 @@ namespace InterfazDeUsuario
             webViewGeoGebra.CoreWebView2.Navigate(url);
         }
 
+        // Aplica estilo "badge" (pastilla) a un Label
+        private void StyleBadge(Label lbl, Color bg, Color fg, int radius = 10, Padding? pad = null)
+        {
+            lbl.AutoSize = true;
+            lbl.BackColor = bg;
+            lbl.ForeColor = fg;
+            lbl.Font = new Font("Segoe UI", 9.5f, FontStyle.Bold);
+            lbl.Padding = pad ?? new Padding(8, 4, 8, 4);
+            lbl.Margin = new Padding(0, 6, 0, 6);
+            lbl.TextAlign = ContentAlignment.MiddleLeft;
+
+            // redondeado
+            lbl.Resize += (_, __) =>
+            {
+                using var gp = RoundedRect(new Rectangle(Point.Empty, lbl.Size), radius);
+                var old = lbl.Region;
+                lbl.Region = new Region(gp);
+                old?.Dispose();
+            };
+            // forzar una primera vez
+            lbl.PerformLayout();
+        }
+
         private void lblMensaje_Click(object sender, EventArgs e)
         {
 
         }
 
         private void lblIteracionesRes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtXi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblRaiz_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtErrorRes_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMensaje_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblIntervalo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMetodo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblErrorRes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblIngresarFuncion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtRaiz_TextChanged(object sender, EventArgs e)
         {
 
         }

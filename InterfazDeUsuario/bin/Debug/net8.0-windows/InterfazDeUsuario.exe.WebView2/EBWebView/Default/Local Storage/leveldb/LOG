@@ -1,17 +1,20 @@
-2025/08/28-11:12:56.328 6910 Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/08/28-11:12:56.345 6910 Recovering log #75
-2025/08/28-11:12:56.348 6910 Level-0 table #78: started
-2025/08/28-11:12:56.362 6910 Level-0 table #78: 115606 bytes OK
-2025/08/28-11:12:56.376 6910 Delete type=0 #75
-2025/08/28-11:12:56.380 3488 Compacting 4@0 + 1@1 files
-2025/08/28-11:12:56.410 3488 Generated table #80@0: 4 keys, 115637 bytes
-2025/08/28-11:12:56.410 3488 Compacted 4@0 + 1@1 files => 115637 bytes
-2025/08/28-11:12:56.413 3488 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/08/28-11:12:56.416 3488 Delete type=2 #70
-2025/08/28-11:12:56.417 3488 Delete type=2 #72
-2025/08/28-11:12:56.417 3488 Delete type=2 #74
-2025/08/28-11:12:56.417 3488 Delete type=2 #76
-2025/08/28-11:12:56.417 3488 Delete type=2 #78
-2025/08/28-11:13:10.824 6910 Level-0 table #82: started
-2025/08/28-11:13:10.841 6910 Level-0 table #82: 109138 bytes OK
-2025/08/28-11:13:10.849 6910 Delete type=0 #79
+2025/08/28-15:15:31.653 55c Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/08/28-15:15:31.660 55c Recovering log #86
+2025/08/28-15:15:31.662 55c Level-0 table #89: started
+2025/08/28-15:15:31.670 55c Level-0 table #89: 137073 bytes OK
+2025/08/28-15:15:31.677 55c Delete type=0 #86
+2025/08/28-15:15:31.679 396c Compacting 4@0 + 1@1 files
+2025/08/28-15:15:31.702 396c Generated table #91@0: 8 keys, 246081 bytes
+2025/08/28-15:15:31.702 396c Compacted 4@0 + 1@1 files => 246081 bytes
+2025/08/28-15:15:31.704 396c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/28-15:15:31.706 396c Delete type=2 #80
+2025/08/28-15:15:31.706 396c Delete type=2 #82
+2025/08/28-15:15:31.706 396c Delete type=2 #85
+2025/08/28-15:15:31.706 396c Delete type=2 #87
+2025/08/28-15:15:31.707 396c Delete type=2 #89
+2025/08/28-15:16:31.706 396c Level-0 table #93: started
+2025/08/28-15:16:31.715 396c Level-0 table #93: 109012 bytes OK
+2025/08/28-15:16:31.721 396c Delete type=0 #90
+2025/08/28-15:17:53.786 396c Level-0 table #95: started
+2025/08/28-15:17:53.797 396c Level-0 table #95: 105282 bytes OK
+2025/08/28-15:17:53.802 396c Delete type=0 #92

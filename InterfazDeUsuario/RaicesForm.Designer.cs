@@ -59,15 +59,16 @@
             // 
             lblIngresarFuncion.AutoSize = true;
             lblIngresarFuncion.BackColor = SystemColors.MenuHighlight;
-            lblIngresarFuncion.Location = new Point(38, 83);
+            lblIngresarFuncion.Location = new Point(30, 64);
             lblIngresarFuncion.Name = "lblIngresarFuncion";
-            lblIngresarFuncion.Size = new Size(117, 20);
+            lblIngresarFuncion.Size = new Size(145, 20);
             lblIngresarFuncion.TabIndex = 0;
-            lblIngresarFuncion.Text = "Ingresar Función";
+            lblIngresarFuncion.Text = "INGRESAR FUNCIÓN";
+            lblIngresarFuncion.Click += lblIngresarFuncion_Click;
             // 
             // txtFuncion
             // 
-            txtFuncion.Location = new Point(38, 106);
+            txtFuncion.Location = new Point(38, 98);
             txtFuncion.Name = "txtFuncion";
             txtFuncion.Size = new Size(276, 27);
             txtFuncion.TabIndex = 1;
@@ -76,7 +77,7 @@
             // 
             cmbMetodo.FormattingEnabled = true;
             cmbMetodo.Items.AddRange(new object[] { "Método Cerrado: Bisección", "Método Cerrado: Regla Falsa", "Método Abierto: Newton-Raphson", "Método Abierto: Secante" });
-            cmbMetodo.Location = new Point(40, 179);
+            cmbMetodo.Location = new Point(38, 194);
             cmbMetodo.Name = "cmbMetodo";
             cmbMetodo.Size = new Size(274, 28);
             cmbMetodo.TabIndex = 2;
@@ -85,25 +86,26 @@
             // 
             lblMetodo.AutoSize = true;
             lblMetodo.BackColor = SystemColors.Control;
-            lblMetodo.Location = new Point(40, 156);
+            lblMetodo.Location = new Point(30, 160);
             lblMetodo.Name = "lblMetodo";
-            lblMetodo.Size = new Size(142, 20);
+            lblMetodo.Size = new Size(168, 20);
             lblMetodo.TabIndex = 3;
-            lblMetodo.Text = "Seleccionar Método";
+            lblMetodo.Text = "SELECCIONAR MÉTODO";
+            lblMetodo.Click += lblMetodo_Click;
             // 
             // lblIteraciones
             // 
             lblIteraciones.AutoSize = true;
             lblIteraciones.BackColor = SystemColors.GradientActiveCaption;
-            lblIteraciones.Location = new Point(40, 236);
+            lblIteraciones.Location = new Point(30, 241);
             lblIteraciones.Name = "lblIteraciones";
-            lblIteraciones.Size = new Size(81, 20);
+            lblIteraciones.Size = new Size(99, 20);
             lblIteraciones.TabIndex = 4;
-            lblIteraciones.Text = "Iteraciones";
+            lblIteraciones.Text = "ITERACIONES";
             // 
             // txtIteraciones
             // 
-            txtIteraciones.Location = new Point(38, 259);
+            txtIteraciones.Location = new Point(38, 274);
             txtIteraciones.Name = "txtIteraciones";
             txtIteraciones.Size = new Size(274, 27);
             txtIteraciones.TabIndex = 5;
@@ -112,15 +114,15 @@
             // 
             lblTolerancia.AutoSize = true;
             lblTolerancia.BackColor = SystemColors.GradientActiveCaption;
-            lblTolerancia.Location = new Point(40, 315);
+            lblTolerancia.Location = new Point(34, 349);
             lblTolerancia.Name = "lblTolerancia";
-            lblTolerancia.Size = new Size(77, 20);
+            lblTolerancia.Size = new Size(95, 20);
             lblTolerancia.TabIndex = 6;
-            lblTolerancia.Text = "Tolerancia";
+            lblTolerancia.Text = "TOLERANCIA";
             // 
             // txtTolerancia
             // 
-            txtTolerancia.Location = new Point(38, 341);
+            txtTolerancia.Location = new Point(38, 385);
             txtTolerancia.Name = "txtTolerancia";
             txtTolerancia.Size = new Size(274, 27);
             txtTolerancia.TabIndex = 7;
@@ -129,17 +131,18 @@
             // 
             lblIntervalo.AutoSize = true;
             lblIntervalo.BackColor = SystemColors.GradientActiveCaption;
-            lblIntervalo.Location = new Point(540, 83);
+            lblIntervalo.Location = new Point(110, 456);
             lblIntervalo.Name = "lblIntervalo";
-            lblIntervalo.Size = new Size(148, 20);
+            lblIntervalo.Size = new Size(92, 20);
             lblIntervalo.TabIndex = 8;
-            lblIntervalo.Text = "Ingrese los intervalos";
+            lblIntervalo.Text = "INTERVALOS";
+            lblIntervalo.Click += lblIntervalo_Click;
             // 
             // lblXi
             // 
             lblXi.AutoSize = true;
             lblXi.BackColor = SystemColors.InactiveCaption;
-            lblXi.Location = new Point(474, 109);
+            lblXi.Location = new Point(51, 475);
             lblXi.Name = "lblXi";
             lblXi.Size = new Size(22, 20);
             lblXi.TabIndex = 9;
@@ -149,7 +152,7 @@
             // 
             lblXd.AutoSize = true;
             lblXd.BackColor = SystemColors.ActiveCaption;
-            lblXd.Location = new Point(727, 109);
+            lblXd.Location = new Point(236, 475);
             lblXd.Name = "lblXd";
             lblXd.Size = new Size(27, 20);
             lblXd.TabIndex = 10;
@@ -157,78 +160,85 @@
             // 
             // txtXi
             // 
-            txtXi.Location = new Point(421, 132);
+            txtXi.Location = new Point(38, 498);
             txtXi.Name = "txtXi";
-            txtXi.Size = new Size(141, 27);
+            txtXi.Size = new Size(67, 27);
             txtXi.TabIndex = 11;
+            txtXi.TextChanged += txtXi_TextChanged;
             // 
             // txtXd
             // 
-            txtXd.Location = new Point(666, 132);
+            txtXd.Location = new Point(224, 498);
             txtXd.Name = "txtXd";
-            txtXd.Size = new Size(147, 27);
+            txtXd.Size = new Size(69, 27);
             txtXd.TabIndex = 12;
             // 
             // buttonCalcular
             // 
             buttonCalcular.AutoSize = true;
             buttonCalcular.BackColor = SystemColors.AppWorkspace;
-            buttonCalcular.Location = new Point(511, 170);
+            buttonCalcular.Location = new Point(71, 598);
             buttonCalcular.Name = "buttonCalcular";
             buttonCalcular.Size = new Size(222, 45);
             buttonCalcular.TabIndex = 13;
-            buttonCalcular.Text = "Calcular!!";
+            buttonCalcular.Text = "CALCULAR";
             buttonCalcular.UseVisualStyleBackColor = false;
             buttonCalcular.Click += buttonCalcular_Click;
             // 
             // lblRaiz
             // 
             lblRaiz.AutoSize = true;
-            lblRaiz.Location = new Point(361, 248);
+            lblRaiz.BackColor = SystemColors.ActiveCaption;
+            lblRaiz.Location = new Point(469, 562);
             lblRaiz.Name = "lblRaiz";
-            lblRaiz.Size = new Size(37, 20);
+            lblRaiz.Size = new Size(41, 20);
             lblRaiz.TabIndex = 14;
-            lblRaiz.Text = "Raíz";
+            lblRaiz.Text = "RAÍZ";
+            lblRaiz.Click += lblRaiz_Click;
             // 
             // txtRaiz
             // 
-            txtRaiz.Location = new Point(562, 236);
+            txtRaiz.Location = new Point(707, 555);
             txtRaiz.Name = "txtRaiz";
             txtRaiz.ReadOnly = true;
             txtRaiz.Size = new Size(300, 27);
             txtRaiz.TabIndex = 15;
+            txtRaiz.TextChanged += txtRaiz_TextChanged;
             // 
             // lblMensaje
             // 
             lblMensaje.AutoSize = true;
-            lblMensaje.Location = new Point(361, 357);
+            lblMensaje.BackColor = SystemColors.ActiveCaption;
+            lblMensaje.Location = new Point(469, 682);
             lblMensaje.Name = "lblMensaje";
-            lblMensaje.Size = new Size(64, 20);
+            lblMensaje.Size = new Size(73, 20);
             lblMensaje.TabIndex = 16;
-            lblMensaje.Text = "Mensaje";
+            lblMensaje.Text = "MENSAJE";
             lblMensaje.Click += lblMensaje_Click;
             // 
             // txtMensaje
             // 
-            txtMensaje.Location = new Point(562, 357);
+            txtMensaje.Location = new Point(707, 675);
             txtMensaje.Name = "txtMensaje";
             txtMensaje.ReadOnly = true;
             txtMensaje.Size = new Size(300, 27);
             txtMensaje.TabIndex = 17;
+            txtMensaje.TextChanged += txtMensaje_TextChanged;
             // 
             // lblIteracionesRes
             // 
             lblIteracionesRes.AutoSize = true;
-            lblIteracionesRes.Location = new Point(361, 282);
+            lblIteracionesRes.BackColor = SystemColors.ActiveCaption;
+            lblIteracionesRes.Location = new Point(469, 605);
             lblIteracionesRes.Name = "lblIteracionesRes";
-            lblIteracionesRes.Size = new Size(152, 20);
+            lblIteracionesRes.Size = new Size(189, 20);
             lblIteracionesRes.TabIndex = 18;
-            lblIteracionesRes.Text = "Iteraciones realizadas";
+            lblIteracionesRes.Text = "ITERACIONES REALIZADAS";
             lblIteracionesRes.Click += lblIteracionesRes_Click;
             // 
             // txtIteracionesRes
             // 
-            txtIteracionesRes.Location = new Point(562, 275);
+            txtIteracionesRes.Location = new Point(707, 598);
             txtIteracionesRes.Name = "txtIteracionesRes";
             txtIteracionesRes.ReadOnly = true;
             txtIteracionesRes.Size = new Size(300, 27);
@@ -237,26 +247,29 @@
             // lblErrorRes
             // 
             lblErrorRes.AutoSize = true;
-            lblErrorRes.Location = new Point(361, 322);
+            lblErrorRes.BackColor = SystemColors.ActiveCaption;
+            lblErrorRes.Location = new Point(469, 643);
             lblErrorRes.Name = "lblErrorRes";
-            lblErrorRes.Size = new Size(41, 20);
+            lblErrorRes.Size = new Size(55, 20);
             lblErrorRes.TabIndex = 20;
-            lblErrorRes.Text = "Error";
+            lblErrorRes.Text = "ERROR";
+            lblErrorRes.Click += lblErrorRes_Click;
             // 
             // txtErrorRes
             // 
-            txtErrorRes.Location = new Point(562, 315);
+            txtErrorRes.Location = new Point(707, 636);
             txtErrorRes.Name = "txtErrorRes";
             txtErrorRes.ReadOnly = true;
             txtErrorRes.Size = new Size(300, 27);
             txtErrorRes.TabIndex = 21;
+            txtErrorRes.TextChanged += txtErrorRes_TextChanged;
             // 
             // webViewGeoGebra
             // 
             webViewGeoGebra.AllowExternalDrop = true;
             webViewGeoGebra.CreationProperties = null;
             webViewGeoGebra.DefaultBackgroundColor = Color.White;
-            webViewGeoGebra.Location = new Point(21, 417);
+            webViewGeoGebra.Location = new Point(457, 83);
             webViewGeoGebra.Margin = new Padding(3, 4, 3, 4);
             webViewGeoGebra.Name = "webViewGeoGebra";
             webViewGeoGebra.Size = new Size(869, 437);
@@ -267,7 +280,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 867);
+            ClientSize = new Size(1457, 867);
             Controls.Add(lblRaiz);
             Controls.Add(txtRaiz);
             Controls.Add(lblMensaje);

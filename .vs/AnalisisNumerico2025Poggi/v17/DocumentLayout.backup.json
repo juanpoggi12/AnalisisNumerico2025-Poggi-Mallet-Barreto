@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|c:\\users\\juani\\onedrive\\escritorio\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|c:\\users\\juani\\onedrive\\escritorio\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|c:\\users\\juani\\onedrive\\escritorio\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|c:\\users\\juani\\onedrive\\escritorio\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\raicesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,16 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RaicesForm.cs",
               "DocumentMoniker": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\RaicesForm.cs",
               "ToolTip": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs*",
               "RelativeToolTip": "InterfazDeUsuario\\RaicesForm.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAB8CAAAAAAAAAAAAAC4CAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T17:00:55.1Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RaicesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs",
+              "RelativeDocumentMoniker": "InterfazDeUsuario\\RaicesForm.cs",
+              "ToolTip": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "InterfazDeUsuario\\RaicesForm.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:52:01.267Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -55,24 +67,12 @@
               "Title": "RaicesForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.Designer.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\RaicesForm.Designer.cs",
-              "ToolTip": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.Designer.cs",
-              "RelativeToolTip": "InterfazDeUsuario\\RaicesForm.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.Designer.cs*",
+              "RelativeToolTip": "InterfazDeUsuario\\RaicesForm.Designer.cs*",
+              "ViewState": "AgIAAEIBAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T16:45:34.998Z",
+              "WhenOpened": "2025-08-28T18:52:11.461Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RaicesForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs",
-              "RelativeDocumentMoniker": "InterfazDeUsuario\\RaicesForm.cs",
-              "ToolTip": "C:\\Users\\juani\\OneDrive\\Escritorio\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "InterfazDeUsuario\\RaicesForm.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T14:46:24.975Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
