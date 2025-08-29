@@ -1,9 +1,23 @@
-2025/08/28-15:06:39.439 76d4 Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/08/28-15:06:39.450 76d4 Recovering log #81
-2025/08/28-15:06:39.454 76d4 Reusing old log C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000081.log 
-2025/08/28-15:07:39.478 14ac Level-0 table #85: started
-2025/08/28-15:07:39.487 14ac Level-0 table #85: 109278 bytes OK
-2025/08/28-15:07:39.491 14ac Delete type=0 #81
-2025/08/28-15:11:45.196 14ac Level-0 table #87: started
-2025/08/28-15:11:45.205 14ac Level-0 table #87: 141532 bytes OK
-2025/08/28-15:11:45.210 14ac Delete type=0 #84
+2025/08/29-10:26:59.292 2094 Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/08/29-10:26:59.306 2094 Recovering log #145
+2025/08/29-10:26:59.307 2094 Level-0 table #148: started
+2025/08/29-10:26:59.317 2094 Level-0 table #148: 85444 bytes OK
+2025/08/29-10:26:59.332 2094 Delete type=0 #145
+2025/08/29-10:26:59.334 6384 Compacting 4@0 + 1@1 files
+2025/08/29-10:26:59.358 6384 Generated table #150@0: 8 keys, 194454 bytes
+2025/08/29-10:26:59.358 6384 Compacted 4@0 + 1@1 files => 194454 bytes
+2025/08/29-10:26:59.361 6384 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/29-10:26:59.364 6384 Delete type=2 #139
+2025/08/29-10:26:59.364 6384 Delete type=2 #141
+2025/08/29-10:26:59.365 6384 Delete type=2 #144
+2025/08/29-10:26:59.365 6384 Delete type=2 #146
+2025/08/29-10:26:59.365 6384 Delete type=2 #148
+2025/08/29-10:27:59.366 2094 Level-0 table #152: started
+2025/08/29-10:27:59.376 2094 Level-0 table #152: 109012 bytes OK
+2025/08/29-10:27:59.381 2094 Delete type=0 #149
+2025/08/29-10:29:26.465 2094 Level-0 table #154: started
+2025/08/29-10:29:26.473 2094 Level-0 table #154: 77462 bytes OK
+2025/08/29-10:29:26.483 2094 Delete type=0 #151
+2025/08/29-10:29:59.575 2094 Level-0 table #156: started
+2025/08/29-10:29:59.586 2094 Level-0 table #156: 77462 bytes OK
+2025/08/29-10:29:59.591 2094 Delete type=0 #153

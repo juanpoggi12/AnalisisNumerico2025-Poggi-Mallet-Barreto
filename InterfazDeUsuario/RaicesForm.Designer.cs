@@ -219,9 +219,10 @@
             // txtMensaje
             // 
             txtMensaje.Location = new Point(707, 675);
+            txtMensaje.Multiline = true;
             txtMensaje.Name = "txtMensaje";
             txtMensaje.ReadOnly = true;
-            txtMensaje.Size = new Size(300, 27);
+            txtMensaje.Size = new Size(300, 144);
             txtMensaje.TabIndex = 17;
             txtMensaje.TextChanged += txtMensaje_TextChanged;
             // 
@@ -269,7 +270,7 @@
             webViewGeoGebra.AllowExternalDrop = true;
             webViewGeoGebra.CreationProperties = null;
             webViewGeoGebra.DefaultBackgroundColor = Color.White;
-            webViewGeoGebra.Location = new Point(457, 83);
+            webViewGeoGebra.Location = new Point(384, 98);
             webViewGeoGebra.Margin = new Padding(3, 4, 3, 4);
             webViewGeoGebra.Name = "webViewGeoGebra";
             webViewGeoGebra.Size = new Size(869, 437);
