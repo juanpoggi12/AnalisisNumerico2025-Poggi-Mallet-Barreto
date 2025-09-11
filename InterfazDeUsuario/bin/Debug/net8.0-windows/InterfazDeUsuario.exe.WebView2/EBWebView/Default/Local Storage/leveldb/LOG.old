@@ -1,23 +1,21 @@
-2025/08/29-10:26:59.292 2094 Reusing MANIFEST C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/08/29-10:26:59.306 2094 Recovering log #145
-2025/08/29-10:26:59.307 2094 Level-0 table #148: started
-2025/08/29-10:26:59.317 2094 Level-0 table #148: 85444 bytes OK
-2025/08/29-10:26:59.332 2094 Delete type=0 #145
-2025/08/29-10:26:59.334 6384 Compacting 4@0 + 1@1 files
-2025/08/29-10:26:59.358 6384 Generated table #150@0: 8 keys, 194454 bytes
-2025/08/29-10:26:59.358 6384 Compacted 4@0 + 1@1 files => 194454 bytes
-2025/08/29-10:26:59.361 6384 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/08/29-10:26:59.364 6384 Delete type=2 #139
-2025/08/29-10:26:59.364 6384 Delete type=2 #141
-2025/08/29-10:26:59.365 6384 Delete type=2 #144
-2025/08/29-10:26:59.365 6384 Delete type=2 #146
-2025/08/29-10:26:59.365 6384 Delete type=2 #148
-2025/08/29-10:27:59.366 2094 Level-0 table #152: started
-2025/08/29-10:27:59.376 2094 Level-0 table #152: 109012 bytes OK
-2025/08/29-10:27:59.381 2094 Delete type=0 #149
-2025/08/29-10:29:26.465 2094 Level-0 table #154: started
-2025/08/29-10:29:26.473 2094 Level-0 table #154: 77462 bytes OK
-2025/08/29-10:29:26.483 2094 Delete type=0 #151
-2025/08/29-10:29:59.575 2094 Level-0 table #156: started
-2025/08/29-10:29:59.586 2094 Level-0 table #156: 77462 bytes OK
-2025/08/29-10:29:59.591 2094 Delete type=0 #153
+2025/08/29-12:34:29.380 258c Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/08/29-12:34:29.387 258c Recovering log #39
+2025/08/29-12:34:29.388 258c Level-0 table #42: started
+2025/08/29-12:34:29.440 258c Level-0 table #42: 271777 bytes OK
+2025/08/29-12:34:29.440 258c Recovering log #41
+2025/08/29-12:34:29.441 258c Level-0 table #43: started
+2025/08/29-12:34:29.479 258c Level-0 table #43: 271777 bytes OK
+2025/08/29-12:34:29.502 258c Delete type=0 #39
+2025/08/29-12:34:29.502 258c Delete type=0 #41
+2025/08/29-12:35:29.522 500c Level-0 table #46: started
+2025/08/29-12:35:29.552 500c Level-0 table #46: 109138 bytes OK
+2025/08/29-12:35:29.576 500c Delete type=0 #44
+2025/08/29-12:35:29.576 258c Compacting 4@0 + 1@1 files
+2025/08/29-12:35:29.603 258c Generated table #47@0: 8 keys, 109294 bytes
+2025/08/29-12:35:29.603 258c Compacted 4@0 + 1@1 files => 109294 bytes
+2025/08/29-12:35:29.626 258c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/29-12:35:29.627 258c Delete type=2 #38
+2025/08/29-12:35:29.627 258c Delete type=2 #40
+2025/08/29-12:35:29.627 258c Delete type=2 #42
+2025/08/29-12:35:29.628 258c Delete type=2 #43
+2025/08/29-12:35:29.628 258c Delete type=2 #46
