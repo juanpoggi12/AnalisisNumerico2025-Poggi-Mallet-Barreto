@@ -1,77 +1,748 @@
-Listado de rutas de carpetas
-El número de serie del volumen es E6B3-3E15
-C:.
-|   AnalisisNumerico2025Poggi.sln
-|   estructura.txt
-|   
+Listado de rutas de carpetas para el volumen Nuevo vol
+El número de serie del volumen es AC6C-C108
+D:.
+¦   AnalisisNumerico2025Poggi.sln
+¦   estructura.txt
+¦   
 +---.vs
-|   +---AnalisisNumerico2025Poggi
-|   |   +---copilot-chat
-|   |   |   \---845fce13
-|   |   |       \---sessions
-|   |   |               994b2b58-60fc-4db7-9d9f-ea4b807e25f5
-|   |   |               
-|   |   +---CopilotIndices
-|   |   |   \---17.14.734.62261
-|   |   |           CodeChunks.db
-|   |   |           CodeChunks.db-shm
-|   |   |           CodeChunks.db-wal
-|   |   |           SemanticSymbols.db
-|   |   |           SemanticSymbols.db-shm
-|   |   |           SemanticSymbols.db-wal
-|   |   |           
-|   |   +---DesignTimeBuild
-|   |   |       .dtbcache.v2
-|   |   |       
-|   |   +---FileContentIndex
-|   |   |       2a7d117e-37e6-4a59-8ce0-7176e65d927e.vsidx
-|   |   |       723a4a36-f59b-4115-97aa-5fd57330e4d1.vsidx
-|   |   |       91aacb16-c952-4df1-8026-58b811fbea7d.vsidx
-|   |   |       ac74fef9-b271-49b8-a9a4-191186572d2c.vsidx
-|   |   |       fabdc490-cc8c-412b-a18f-48051c7e2f26.vsidx
-|   |   |       
-|   |   \---v17
-|   |           .futdcache.v2
-|   |           DocumentLayout.backup.json
-|   |           DocumentLayout.json
-|   |           
-|   \---ProjectEvaluation
-|           analisisnumerico2025poggi.metadata.v9.bin
-|           analisisnumerico2025poggi.projects.v9.bin
-|           analisisnumerico2025poggi.strings.v9.bin
-|           
-\---AnalisisNumerico2025Poggi
-    |   AnalisisNumerico2025Poggi.csproj
-    |   Datos.cs
-    |   MetodosAbiertos.cs
-    |   MetodosCerrados.cs
-    |   Resultado.cs
-    |   
+¦   +---AnalisisNumerico2025Poggi
+¦   ¦   +---copilot-chat
+¦   ¦   ¦   +---845fce13
+¦   ¦   ¦       +---sessions
+¦   ¦   ¦               c2ea8250-f5b6-459e-b15e-59bfa05be585
+¦   ¦   ¦               
+¦   ¦   +---CopilotIndices
+¦   ¦   ¦   +---0.2.1657.32929
+¦   ¦   ¦   ¦       CodeChunks.db
+¦   ¦   ¦   ¦       SemanticSymbols.db
+¦   ¦   ¦   ¦       SemanticSymbols.db-shm
+¦   ¦   ¦   ¦       SemanticSymbols.db-wal
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---17.14.1091.29919
+¦   ¦   ¦   ¦       CodeChunks.db
+¦   ¦   ¦   ¦       SemanticSymbols.db
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---17.14.734.62261
+¦   ¦   ¦           CodeChunks.db
+¦   ¦   ¦           SemanticSymbols.db
+¦   ¦   ¦           
+¦   ¦   +---DesignTimeBuild
+¦   ¦   ¦       .dtbcache.v2
+¦   ¦   ¦       
+¦   ¦   +---FileContentIndex
+¦   ¦   ¦       279e068f-7122-464d-85aa-b75f7b3c3b89.vsidx
+¦   ¦   ¦       4bf864a5-e9f6-468a-9d23-519e133e711d.vsidx
+¦   ¦   ¦       5fb608db-ee04-47e4-b39f-2593f86208b7.vsidx
+¦   ¦   ¦       60316f3b-7000-49d4-b37c-591113c3e6d5.vsidx
+¦   ¦   ¦       a683c317-05b2-4e26-8a5f-b45155d5268f.vsidx
+¦   ¦   ¦       
+¦   ¦   +---v17
+¦   ¦       ¦   .futdcache.v2
+¦   ¦       ¦   DocumentLayout.backup.json
+¦   ¦       ¦   DocumentLayout.json
+¦   ¦       ¦   
+¦   ¦       +---ResourceExplorer
+¦   ¦               settings.json
+¦   ¦               
+¦   +---ProjectEvaluation
+¦           analisisnumerico2025poggi.metadata.v9.bin
+¦           analisisnumerico2025poggi.projects.v9.bin
+¦           analisisnumerico2025poggi.strings.v9.bin
+¦           
++---AnalisisNumerico2025Poggi
+¦   ¦   .gitignore
+¦   ¦   AnalisisNumerico2025Poggi.csproj
+¦   ¦   Datos.cs
+¦   ¦   MetodosAbiertos.cs
+¦   ¦   MetodosCerrados.cs
+¦   ¦   Program.cs
+¦   ¦   Resultado.cs
+¦   ¦   ResultadoRaiz.cs
+¦   ¦   
+¦   +---bin
+¦   ¦   +---Debug
+¦   ¦       +---net8.0
+¦   ¦       ¦       AnalisisNumerico2025Poggi.deps.json
+¦   ¦       ¦       AnalisisNumerico2025Poggi.dll
+¦   ¦       ¦       AnalisisNumerico2025Poggi.pdb
+¦   ¦       ¦       Calculus.dll
+¦   ¦       ¦       
+¦   ¦       +---net8.0-windows
+¦   ¦               AnalisisNumerico2025Poggi.deps.json
+¦   ¦               AnalisisNumerico2025Poggi.dll
+¦   ¦               AnalisisNumerico2025Poggi.exe
+¦   ¦               AnalisisNumerico2025Poggi.pdb
+¦   ¦               AnalisisNumerico2025Poggi.runtimeconfig.json
+¦   ¦               Calculus.dll
+¦   ¦               
+¦   +---Libs
+¦   ¦       Calculus.dll
+¦   ¦       
+¦   +---obj
+¦   ¦   ¦   AnalisisNumerico2025Poggi.csproj.nuget.dgspec.json
+¦   ¦   ¦   AnalisisNumerico2025Poggi.csproj.nuget.g.props
+¦   ¦   ¦   AnalisisNumerico2025Poggi.csproj.nuget.g.targets
+¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   
+¦   ¦   +---Debug
+¦   ¦       +---net8.0
+¦   ¦       ¦   ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+¦   ¦       ¦   ¦   Analisis.1EB2A0AC.Up2Date
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.AssemblyInfo.cs
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.AssemblyInfoInputs.cache
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.assets.cache
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.csproj.AssemblyReference.cache
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.csproj.BuildWithSkipAnalyzers
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.csproj.CoreCompileInputs.cache
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.csproj.FileListAbsolute.txt
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.dll
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.GlobalUsings.g.cs
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.pdb
+¦   ¦       ¦   ¦   AnalisisNumerico2025Poggi.sourcelink.json
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---ref
+¦   ¦       ¦   ¦       AnalisisNumerico2025Poggi.dll
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---refint
+¦   ¦       ¦           AnalisisNumerico2025Poggi.dll
+¦   ¦       ¦           
+¦   ¦       +---net8.0-windows
+¦   ¦           ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+¦   ¦           ¦   Analisis.1EB2A0AC.Up2Date
+¦   ¦           ¦   AnalisisNumerico2025Poggi.AssemblyInfo.cs
+¦   ¦           ¦   AnalisisNumerico2025Poggi.AssemblyInfoInputs.cache
+¦   ¦           ¦   AnalisisNumerico2025Poggi.assets.cache
+¦   ¦           ¦   AnalisisNumerico2025Poggi.csproj.AssemblyReference.cache
+¦   ¦           ¦   AnalisisNumerico2025Poggi.csproj.BuildWithSkipAnalyzers
+¦   ¦           ¦   AnalisisNumerico2025Poggi.csproj.CoreCompileInputs.cache
+¦   ¦           ¦   AnalisisNumerico2025Poggi.csproj.FileListAbsolute.txt
+¦   ¦           ¦   AnalisisNumerico2025Poggi.dll
+¦   ¦           ¦   AnalisisNumerico2025Poggi.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦           ¦   AnalisisNumerico2025Poggi.genruntimeconfig.cache
+¦   ¦           ¦   AnalisisNumerico2025Poggi.pdb
+¦   ¦           ¦   AnalisisNumerico2025Poggi.sourcelink.json
+¦   ¦           ¦   apphost.exe
+¦   ¦           ¦   
+¦   ¦           +---ref
+¦   ¦           ¦       AnalisisNumerico2025Poggi.dll
+¦   ¦           ¦       
+¦   ¦           +---refint
+¦   ¦                   AnalisisNumerico2025Poggi.dll
+¦   ¦                   
+¦   +---SistemasEcuaciones
+¦           Ecuaciones.cs
+¦           GaussJordan.cs
+¦           GaussSeidel.cs
+¦           ResultadoSistema.cs
+¦           TestSistemas.cs
+¦           
++---InterfazDeUsuario
+    ¦   InterfazDeUsuario.csproj
+    ¦   InterfazDeUsuario.csproj.user
+    ¦   Program.cs
+    ¦   RaicesForm.cs
+    ¦   RaicesForm.Designer.cs
+    ¦   RaicesForm.resx
+    ¦   
     +---bin
-    |   \---Debug
-    |       \---net8.0
-    +---Libs
-    |       Calculus.dll
-    |       
-    \---obj
-        |   AnalisisNumerico2025Poggi.csproj.nuget.dgspec.json
-        |   AnalisisNumerico2025Poggi.csproj.nuget.g.props
-        |   AnalisisNumerico2025Poggi.csproj.nuget.g.targets
-        |   project.assets.json
-        |   project.nuget.cache
-        |   
-        \---Debug
-            \---net8.0
-                |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
-                |   AnalisisNumerico2025Poggi.AssemblyInfo.cs
-                |   AnalisisNumerico2025Poggi.AssemblyInfoInputs.cache
-                |   AnalisisNumerico2025Poggi.assets.cache
-                |   AnalisisNumerico2025Poggi.csproj.AssemblyReference.cache
-                |   AnalisisNumerico2025Poggi.csproj.CoreCompileInputs.cache
-                |   AnalisisNumerico2025Poggi.csproj.FileListAbsolute.txt
-                |   AnalisisNumerico2025Poggi.GeneratedMSBuildEditorConfig.editorconfig
-                |   AnalisisNumerico2025Poggi.GlobalUsings.g.cs
-                |   AnalisisNumerico2025Poggi.sourcelink.json
-                |   
+    ¦   +---Debug
+    ¦       +---net8.0-windows
+    ¦           ¦   AnalisisNumerico2025Poggi.deps.json
+    ¦           ¦   AnalisisNumerico2025Poggi.dll
+    ¦           ¦   AnalisisNumerico2025Poggi.exe
+    ¦           ¦   AnalisisNumerico2025Poggi.pdb
+    ¦           ¦   AnalisisNumerico2025Poggi.runtimeconfig.json
+    ¦           ¦   Calculus.dll
+    ¦           ¦   InterfazDeUsuario.deps.json
+    ¦           ¦   InterfazDeUsuario.dll
+    ¦           ¦   InterfazDeUsuario.exe
+    ¦           ¦   InterfazDeUsuario.pdb
+    ¦           ¦   InterfazDeUsuario.runtimeconfig.json
+    ¦           ¦   Microsoft.Web.WebView2.Core.dll
+    ¦           ¦   Microsoft.Web.WebView2.Core.xml
+    ¦           ¦   Microsoft.Web.WebView2.WinForms.dll
+    ¦           ¦   Microsoft.Web.WebView2.WinForms.xml
+    ¦           ¦   Microsoft.Web.WebView2.Wpf.dll
+    ¦           ¦   Microsoft.Web.WebView2.Wpf.xml
+    ¦           ¦   
+    ¦           +---InterfazDeUsuario.exe.WebView2
+    ¦           ¦   +---EBWebView
+    ¦           ¦       ¦   BrowserMetrics-spare.pma
+    ¦           ¦       ¦   Last Version
+    ¦           ¦       ¦   Local State
+    ¦           ¦       ¦   RevisitationBloomfilter
+    ¦           ¦       ¦   Variations
+    ¦           ¦       ¦   
+    ¦           ¦       +---AmountExtractionHeuristicRegexes
+    ¦           ¦       +---AutoLaunchProtocolsComponent
+    ¦           ¦       ¦   +---1.0.0.9
+    ¦           ¦       ¦           manifest.json
+    ¦           ¦       ¦           protocols.json
+    ¦           ¦       ¦           
+    ¦           ¦       +---CertificateRevocation
+    ¦           ¦       ¦   +---6498.2024.12.2
+    ¦           ¦       ¦           crl-set
+    ¦           ¦       ¦           manifest.json
+    ¦           ¦       ¦           
+    ¦           ¦       +---component_crx_cache
+    ¦           ¦       ¦       00af3f07b5abb71f6d30337e1eef62fa280f06ef19485c0cf6b72171f92ccc0a
+    ¦           ¦       ¦       1ab07e887acca305058eeab9053c96dc531c2c5c067ab4f30afa2b31f1edd966
+    ¦           ¦       ¦       452064dcff76e03e0e81b4bb3c48ab1c432e040094f7546c7261a90d4a1c1bbf
+    ¦           ¦       ¦       4b81b4df3ad971287e1ae02c449344fcfa5d20431de17b2ba8854cc9cdce4089
+    ¦           ¦       ¦       89f43cb3df807293de2772d5f01ac2fc1482b38ccc8fdaee859b80642b7a0487
+    ¦           ¦       ¦       95fd9d48e4fc245a3f3a99a3a16ecd1355050ba3f4afc555f19a97c7f9b49677
+    ¦           ¦       ¦       a81d1959892ae4180554347df1b97834abba2e1a5e6b9aeba000ecea26eabecc
+    ¦           ¦       ¦       a99d66cfce8ca170740ce0403956f4dfaf4683829a89f4b7ad9c95303871e284
+    ¦           ¦       ¦       b987bdc4f2ad2a409b964921d4a5db1cdbe07f9c98f868293b4cc32acdc42cec
+    ¦           ¦       ¦       bcb93cba8636743d1fbd32be3bd8ce8ff602323895bf4d136c26b9bc64b0a6a4
+    ¦           ¦       ¦       metadata.json
+    ¦           ¦       ¦       
+    ¦           ¦       +---CookieReadinessList
+    ¦           ¦       +---Crashpad
+    ¦           ¦       ¦   ¦   metadata
+    ¦           ¦       ¦   ¦   settings.dat
+    ¦           ¦       ¦   ¦   throttle_store.dat
+    ¦           ¦       ¦   ¦   
+    ¦           ¦       ¦   +---attachments
+    ¦           ¦       ¦   +---reports
+    ¦           ¦       +---Default
+    ¦           ¦       ¦   ¦   BookmarkMergedSurfaceOrdering
+    ¦           ¦       ¦   ¦   BrowsingTopicsSiteData
+    ¦           ¦       ¦   ¦   BrowsingTopicsSiteData-journal
+    ¦           ¦       ¦   ¦   BrowsingTopicsState
+    ¦           ¦       ¦   ¦   DashTrackerDatabase
+    ¦           ¦       ¦   ¦   DashTrackerDatabase-journal
+    ¦           ¦       ¦   ¦   DIPS
+    ¦           ¦       ¦   ¦   DIPS-wal
+    ¦           ¦       ¦   ¦   ExtensionActivityComp
+    ¦           ¦       ¦   ¦   ExtensionActivityComp-journal
+    ¦           ¦       ¦   ¦   ExtensionActivityEdge
+    ¦           ¦       ¦   ¦   ExtensionActivityEdge-journal
+    ¦           ¦       ¦   ¦   Favicons
+    ¦           ¦       ¦   ¦   Favicons-journal
+    ¦           ¦       ¦   ¦   favorites_diagnostic.log
+    ¦           ¦       ¦   ¦   heavy_ad_intervention_opt_out.db
+    ¦           ¦       ¦   ¦   heavy_ad_intervention_opt_out.db-journal
+    ¦           ¦       ¦   ¦   History
+    ¦           ¦       ¦   ¦   History-journal
+    ¦           ¦       ¦   ¦   Login Data
+    ¦           ¦       ¦   ¦   Login Data-journal
+    ¦           ¦       ¦   ¦   Network Action Predictor
+    ¦           ¦       ¦   ¦   Network Action Predictor-journal
+    ¦           ¦       ¦   ¦   Preferences
+    ¦           ¦       ¦   ¦   PreferredApps
+    ¦           ¦       ¦   ¦   README
+    ¦           ¦       ¦   ¦   Secure Preferences
+    ¦           ¦       ¦   ¦   ServerCertificate
+    ¦           ¦       ¦   ¦   ServerCertificate-journal
+    ¦           ¦       ¦   ¦   SharedStorage
+    ¦           ¦       ¦   ¦   SharedStorage-wal
+    ¦           ¦       ¦   ¦   Top Sites
+    ¦           ¦       ¦   ¦   Top Sites-journal
+    ¦           ¦       ¦   ¦   Vpn Tokens
+    ¦           ¦       ¦   ¦   Vpn Tokens-journal
+    ¦           ¦       ¦   ¦   Web Data
+    ¦           ¦       ¦   ¦   Web Data-journal
+    ¦           ¦       ¦   ¦   
+    ¦           ¦       ¦   +---AutofillStrikeDatabase
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---blob_storage
+    ¦           ¦       ¦   ¦   +---2cb709de-663b-465a-8e17-c744c9356e5c
+    ¦           ¦       ¦   +---BudgetDatabase
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Cache
+    ¦           ¦       ¦   ¦   +---Cache_Data
+    ¦           ¦       ¦   ¦           data_0
+    ¦           ¦       ¦   ¦           data_1
+    ¦           ¦       ¦   ¦           data_2
+    ¦           ¦       ¦   ¦           data_3
+    ¦           ¦       ¦   ¦           f_000001
+    ¦           ¦       ¦   ¦           f_000002
+    ¦           ¦       ¦   ¦           f_000003
+    ¦           ¦       ¦   ¦           f_000004
+    ¦           ¦       ¦   ¦           f_000006
+    ¦           ¦       ¦   ¦           f_000007
+    ¦           ¦       ¦   ¦           f_000008
+    ¦           ¦       ¦   ¦           f_000009
+    ¦           ¦       ¦   ¦           f_00000a
+    ¦           ¦       ¦   ¦           f_00000c
+    ¦           ¦       ¦   ¦           f_00000d
+    ¦           ¦       ¦   ¦           f_00000e
+    ¦           ¦       ¦   ¦           f_00000f
+    ¦           ¦       ¦   ¦           f_000011
+    ¦           ¦       ¦   ¦           f_000012
+    ¦           ¦       ¦   ¦           f_000013
+    ¦           ¦       ¦   ¦           f_000014
+    ¦           ¦       ¦   ¦           f_000015
+    ¦           ¦       ¦   ¦           f_000016
+    ¦           ¦       ¦   ¦           f_000017
+    ¦           ¦       ¦   ¦           f_000018
+    ¦           ¦       ¦   ¦           f_000019
+    ¦           ¦       ¦   ¦           f_00001a
+    ¦           ¦       ¦   ¦           index
+    ¦           ¦       ¦   ¦           
+    ¦           ¦       ¦   +---ClientCertificates
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Code Cache
+    ¦           ¦       ¦   ¦   +---js
+    ¦           ¦       ¦   ¦   ¦   ¦   10d2d240e2d336bc_0
+    ¦           ¦       ¦   ¦   ¦   ¦   19dfb1a8fe057413_0
+    ¦           ¦       ¦   ¦   ¦   ¦   225b0984f31e9b33_0
+    ¦           ¦       ¦   ¦   ¦   ¦   25128bc5a8d9b1c5_0
+    ¦           ¦       ¦   ¦   ¦   ¦   3ab88693a4652df4_0
+    ¦           ¦       ¦   ¦   ¦   ¦   3cfcaea3af826daf_0
+    ¦           ¦       ¦   ¦   ¦   ¦   3e05e48748893d08_0
+    ¦           ¦       ¦   ¦   ¦   ¦   437698a5ea0f5704_0
+    ¦           ¦       ¦   ¦   ¦   ¦   5178127681497808_0
+    ¦           ¦       ¦   ¦   ¦   ¦   57ba5a5dacd5e388_0
+    ¦           ¦       ¦   ¦   ¦   ¦   5a6f1d78f430784d_0
+    ¦           ¦       ¦   ¦   ¦   ¦   6d6c831057b84a84_0
+    ¦           ¦       ¦   ¦   ¦   ¦   6fc6d0c312fc3a7f_0
+    ¦           ¦       ¦   ¦   ¦   ¦   77dce60d611f770a_0
+    ¦           ¦       ¦   ¦   ¦   ¦   7d03a8f11d5d2418_0
+    ¦           ¦       ¦   ¦   ¦   ¦   84b8bb777840aea3_0
+    ¦           ¦       ¦   ¦   ¦   ¦   a5346192cd16adff_0
+    ¦           ¦       ¦   ¦   ¦   ¦   a66214198685210c_0
+    ¦           ¦       ¦   ¦   ¦   ¦   cca9f001700c6909_0
+    ¦           ¦       ¦   ¦   ¦   ¦   d50a5613123a7cb9_0
+    ¦           ¦       ¦   ¦   ¦   ¦   de4d0c8d3c8be849_0
+    ¦           ¦       ¦   ¦   ¦   ¦   e23fed8baaed9c04_0
+    ¦           ¦       ¦   ¦   ¦   ¦   e4e0ccaf30d91ac8_0
+    ¦           ¦       ¦   ¦   ¦   ¦   ee9d31950f69739a_0
+    ¦           ¦       ¦   ¦   ¦   ¦   f71dd890e0c540b3_0
+    ¦           ¦       ¦   ¦   ¦   ¦   fab4d744dfcab1f0_0
+    ¦           ¦       ¦   ¦   ¦   ¦   fd6f7d56a034eb1a_0
+    ¦           ¦       ¦   ¦   ¦   ¦   index
+    ¦           ¦       ¦   ¦   ¦   ¦   
+    ¦           ¦       ¦   ¦   ¦   +---index-dir
+    ¦           ¦       ¦   ¦   ¦           the-real-index
+    ¦           ¦       ¦   ¦   ¦           
+    ¦           ¦       ¦   ¦   +---wasm
+    ¦           ¦       ¦   ¦       ¦   index
+    ¦           ¦       ¦   ¦       ¦   
+    ¦           ¦       ¦   ¦       +---index-dir
+    ¦           ¦       ¦   ¦               the-real-index
+    ¦           ¦       ¦   ¦               
+    ¦           ¦       ¦   +---commerce_subscription_db
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---DawnGraphiteCache
+    ¦           ¦       ¦   ¦       data_0
+    ¦           ¦       ¦   ¦       data_1
+    ¦           ¦       ¦   ¦       data_2
+    ¦           ¦       ¦   ¦       data_3
+    ¦           ¦       ¦   ¦       index
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---DawnWebGPUCache
+    ¦           ¦       ¦   ¦       data_0
+    ¦           ¦       ¦   ¦       data_1
+    ¦           ¦       ¦   ¦       data_2
+    ¦           ¦       ¦   ¦       data_3
+    ¦           ¦       ¦   ¦       index
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---discounts_db
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---discount_infos_db
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Download Service
+    ¦           ¦       ¦   ¦   +---EntryDB
+    ¦           ¦       ¦   ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦   ¦       LOG
+    ¦           ¦       ¦   ¦   ¦       
+    ¦           ¦       ¦   ¦   +---Files
+    ¦           ¦       ¦   +---EdgeEDrop
+    ¦           ¦       ¦   ¦       EdgeEDropSQLite.db
+    ¦           ¦       ¦   ¦       EdgeEDropSQLite.db-journal
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Extension Rules
+    ¦           ¦       ¦   ¦       000003.log
+    ¦           ¦       ¦   ¦       CURRENT
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       MANIFEST-000001
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Extension Scripts
+    ¦           ¦       ¦   ¦       000003.log
+    ¦           ¦       ¦   ¦       CURRENT
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       MANIFEST-000001
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Extension State
+    ¦           ¦       ¦   ¦       000003.log
+    ¦           ¦       ¦   ¦       CURRENT
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       MANIFEST-000001
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Feature Engagement Tracker
+    ¦           ¦       ¦   ¦   +---AvailabilityDB
+    ¦           ¦       ¦   ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦   ¦       LOG
+    ¦           ¦       ¦   ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦   ¦       
+    ¦           ¦       ¦   ¦   +---EventDB
+    ¦           ¦       ¦   ¦           LOCK
+    ¦           ¦       ¦   ¦           LOG
+    ¦           ¦       ¦   ¦           LOG.old
+    ¦           ¦       ¦   ¦           
+    ¦           ¦       ¦   +---GPUCache
+    ¦           ¦       ¦   ¦       data_0
+    ¦           ¦       ¦   ¦       data_1
+    ¦           ¦       ¦   ¦       data_2
+    ¦           ¦       ¦   ¦       data_3
+    ¦           ¦       ¦   ¦       index
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---IndexedDB
+    ¦           ¦       ¦   ¦   +---https_www.geogebra.org_0.indexeddb.leveldb
+    ¦           ¦       ¦   ¦           000005.ldb
+    ¦           ¦       ¦   ¦           000054.ldb
+    ¦           ¦       ¦   ¦           000056.log
+    ¦           ¦       ¦   ¦           000058.ldb
+    ¦           ¦       ¦   ¦           CURRENT
+    ¦           ¦       ¦   ¦           LOCK
+    ¦           ¦       ¦   ¦           LOG
+    ¦           ¦       ¦   ¦           LOG.old
+    ¦           ¦       ¦   ¦           MANIFEST-000001
+    ¦           ¦       ¦   ¦           
+    ¦           ¦       ¦   +---Local Storage
+    ¦           ¦       ¦   ¦   +---leveldb
+    ¦           ¦       ¦   ¦           000005.ldb
+    ¦           ¦       ¦   ¦           000047.ldb
+    ¦           ¦       ¦   ¦           000050.ldb
+    ¦           ¦       ¦   ¦           000051.log
+    ¦           ¦       ¦   ¦           000052.ldb
+    ¦           ¦       ¦   ¦           CURRENT
+    ¦           ¦       ¦   ¦           LOCK
+    ¦           ¦       ¦   ¦           LOG
+    ¦           ¦       ¦   ¦           LOG.old
+    ¦           ¦       ¦   ¦           MANIFEST-000001
+    ¦           ¦       ¦   ¦           
+    ¦           ¦       ¦   +---Network
+    ¦           ¦       ¦   ¦       Cookies
+    ¦           ¦       ¦   ¦       Cookies-journal
+    ¦           ¦       ¦   ¦       Network Persistent State
+    ¦           ¦       ¦   ¦       NetworkDataMigrated
+    ¦           ¦       ¦   ¦       Reporting and NEL
+    ¦           ¦       ¦   ¦       Reporting and NEL-journal
+    ¦           ¦       ¦   ¦       SCT Auditing Pending Reports
+    ¦           ¦       ¦   ¦       Sdch Dictionaries
+    ¦           ¦       ¦   ¦       TransportSecurity
+    ¦           ¦       ¦   ¦       Trust Tokens
+    ¦           ¦       ¦   ¦       Trust Tokens-journal
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---parcel_tracking_db
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---PersistentOriginTrials
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Safe Browsing Network
+    ¦           ¦       ¦   ¦       NetworkDataMigrated
+    ¦           ¦       ¦   ¦       Safe Browsing Cookies
+    ¦           ¦       ¦   ¦       Safe Browsing Cookies-journal
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Session Storage
+    ¦           ¦       ¦   ¦       000003.log
+    ¦           ¦       ¦   ¦       CURRENT
+    ¦           ¦       ¦   ¦       LOCK
+    ¦           ¦       ¦   ¦       LOG
+    ¦           ¦       ¦   ¦       LOG.old
+    ¦           ¦       ¦   ¦       MANIFEST-000001
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---Sessions
+    ¦           ¦       ¦   +---Shared Dictionary
+    ¦           ¦       ¦   ¦   ¦   db
+    ¦           ¦       ¦   ¦   ¦   db-journal
+    ¦           ¦       ¦   ¦   ¦   
+    ¦           ¦       ¦   ¦   +---cache
+    ¦           ¦       ¦   ¦       ¦   index
+    ¦           ¦       ¦   ¦       ¦   
+    ¦           ¦       ¦   ¦       +---index-dir
+    ¦           ¦       ¦   ¦               the-real-index
+    ¦           ¦       ¦   ¦               
+    ¦           ¦       ¦   +---shared_proto_db
+    ¦           ¦       ¦   ¦   ¦   000003.log
+    ¦           ¦       ¦   ¦   ¦   CURRENT
+    ¦           ¦       ¦   ¦   ¦   LOCK
+    ¦           ¦       ¦   ¦   ¦   LOG
+    ¦           ¦       ¦   ¦   ¦   LOG.old
+    ¦           ¦       ¦   ¦   ¦   MANIFEST-000001
+    ¦           ¦       ¦   ¦   ¦   
+    ¦           ¦       ¦   ¦   +---metadata
+    ¦           ¦       ¦   ¦           000003.log
+    ¦           ¦       ¦   ¦           CURRENT
+    ¦           ¦       ¦   ¦           LOCK
+    ¦           ¦       ¦   ¦           LOG
+    ¦           ¦       ¦   ¦           LOG.old
+    ¦           ¦       ¦   ¦           MANIFEST-000001
+    ¦           ¦       ¦   ¦           
+    ¦           ¦       ¦   +---Site Characteristics Database
+    ¦           ¦       ¦   ¦   ¦   000004.ldb
+    ¦           ¦       ¦   ¦   ¦   000006.log
+    ¦           ¦       ¦   ¦   ¦   CURRENT
+    ¦           ¦       ¦   ¦   ¦   LOCK
+    ¦           ¦       ¦   ¦   ¦   LOG
+    ¦           ¦       ¦   ¦   ¦   LOG.old
+    ¦           ¦       ¦   ¦   ¦   MANIFEST-000001
+    ¦           ¦       ¦   ¦   ¦   
+    ¦           ¦       ¦   ¦   +---lost
+    ¦           ¦       ¦   ¦           000003.log
+    ¦           ¦       ¦   ¦           MANIFEST-000001
+    ¦           ¦       ¦   ¦           
+    ¦           ¦       ¦   +---Sync Data
+    ¦           ¦       ¦   ¦   +---LevelDB
+    ¦           ¦       ¦   ¦           000003.log
+    ¦           ¦       ¦   ¦           CURRENT
+    ¦           ¦       ¦   ¦           LOCK
+    ¦           ¦       ¦   ¦           LOG
+    ¦           ¦       ¦   ¦           LOG.old
+    ¦           ¦       ¦   ¦           MANIFEST-000001
+    ¦           ¦       ¦   ¦           
+    ¦           ¦       ¦   +---WebStorage
+    ¦           ¦       ¦           QuotaManager
+    ¦           ¦       ¦           QuotaManager-journal
+    ¦           ¦       ¦           
+    ¦           ¦       +---Domain Actions
+    ¦           ¦       ¦   +---3.0.0.16
+    ¦           ¦       ¦           domain_actions.dll
+    ¦           ¦       ¦           manifest.json
+    ¦           ¦       ¦           
+    ¦           ¦       +---extensions_crx_cache
+    ¦           ¦       ¦       metadata.json
+    ¦           ¦       ¦       
+    ¦           ¦       +---GraphiteDawnCache
+    ¦           ¦       ¦       data_0
+    ¦           ¦       ¦       data_1
+    ¦           ¦       ¦       data_2
+    ¦           ¦       ¦       data_3
+    ¦           ¦       ¦       index
+    ¦           ¦       ¦       
+    ¦           ¦       +---GrShaderCache
+    ¦           ¦       ¦       data_0
+    ¦           ¦       ¦       data_1
+    ¦           ¦       ¦       data_2
+    ¦           ¦       ¦       data_3
+    ¦           ¦       ¦       f_000001
+    ¦           ¦       ¦       f_000002
+    ¦           ¦       ¦       f_000003
+    ¦           ¦       ¦       index
+    ¦           ¦       ¦       
+    ¦           ¦       +---hyphen-data
+    ¦           ¦       ¦   +---120.0.6050.0
+    ¦           ¦       ¦       ¦   hyph-af.hyb
+    ¦           ¦       ¦       ¦   hyph-as.hyb
+    ¦           ¦       ¦       ¦   hyph-be.hyb
+    ¦           ¦       ¦       ¦   hyph-bg.hyb
+    ¦           ¦       ¦       ¦   hyph-bn.hyb
+    ¦           ¦       ¦       ¦   hyph-cs.hyb
+    ¦           ¦       ¦       ¦   hyph-cu.hyb
+    ¦           ¦       ¦       ¦   hyph-cy.hyb
+    ¦           ¦       ¦       ¦   hyph-da.hyb
+    ¦           ¦       ¦       ¦   hyph-de-1901.hyb
+    ¦           ¦       ¦       ¦   hyph-de-1996.hyb
+    ¦           ¦       ¦       ¦   hyph-de-ch-1901.hyb
+    ¦           ¦       ¦       ¦   hyph-el.hyb
+    ¦           ¦       ¦       ¦   hyph-en-gb.hyb
+    ¦           ¦       ¦       ¦   hyph-en-us.hyb
+    ¦           ¦       ¦       ¦   hyph-es.hyb
+    ¦           ¦       ¦       ¦   hyph-et.hyb
+    ¦           ¦       ¦       ¦   hyph-eu.hyb
+    ¦           ¦       ¦       ¦   hyph-fr.hyb
+    ¦           ¦       ¦       ¦   hyph-ga.hyb
+    ¦           ¦       ¦       ¦   hyph-gl.hyb
+    ¦           ¦       ¦       ¦   hyph-gu.hyb
+    ¦           ¦       ¦       ¦   hyph-hi.hyb
+    ¦           ¦       ¦       ¦   hyph-hr.hyb
+    ¦           ¦       ¦       ¦   hyph-hu.hyb
+    ¦           ¦       ¦       ¦   hyph-hy.hyb
+    ¦           ¦       ¦       ¦   hyph-it.hyb
+    ¦           ¦       ¦       ¦   hyph-ka.hyb
+    ¦           ¦       ¦       ¦   hyph-kn.hyb
+    ¦           ¦       ¦       ¦   hyph-la.hyb
+    ¦           ¦       ¦       ¦   hyph-lt.hyb
+    ¦           ¦       ¦       ¦   hyph-lv.hyb
+    ¦           ¦       ¦       ¦   hyph-ml.hyb
+    ¦           ¦       ¦       ¦   hyph-mn-cyrl.hyb
+    ¦           ¦       ¦       ¦   hyph-mr.hyb
+    ¦           ¦       ¦       ¦   hyph-mul-ethi.hyb
+    ¦           ¦       ¦       ¦   hyph-nb.hyb
+    ¦           ¦       ¦       ¦   hyph-nl.hyb
+    ¦           ¦       ¦       ¦   hyph-nn.hyb
+    ¦           ¦       ¦       ¦   hyph-or.hyb
+    ¦           ¦       ¦       ¦   hyph-pa.hyb
+    ¦           ¦       ¦       ¦   hyph-pt.hyb
+    ¦           ¦       ¦       ¦   hyph-ru.hyb
+    ¦           ¦       ¦       ¦   hyph-sk.hyb
+    ¦           ¦       ¦       ¦   hyph-sl.hyb
+    ¦           ¦       ¦       ¦   hyph-sq.hyb
+    ¦           ¦       ¦       ¦   hyph-sv.hyb
+    ¦           ¦       ¦       ¦   hyph-ta.hyb
+    ¦           ¦       ¦       ¦   hyph-te.hyb
+    ¦           ¦       ¦       ¦   hyph-tk.hyb
+    ¦           ¦       ¦       ¦   hyph-uk.hyb
+    ¦           ¦       ¦       ¦   hyph-und-ethi.hyb
+    ¦           ¦       ¦       ¦   manifest.json
+    ¦           ¦       ¦       ¦   
+    ¦           ¦       ¦       +---_metadata
+    ¦           ¦       ¦               verified_contents.json
+    ¦           ¦       ¦               
+    ¦           ¦       +---OpenCookieDatabase
+    ¦           ¦       +---OriginTrials
+    ¦           ¦       ¦   +---0.0.1.7
+    ¦           ¦       ¦           manifest.json
+    ¦           ¦       ¦           
+    ¦           ¦       +---PKIMetadata
+    ¦           ¦       ¦   +---24.0.0.1
+    ¦           ¦       ¦           crs.pb
+    ¦           ¦       ¦           ct_config.pb
+    ¦           ¦       ¦           kp_pinslist.pb
+    ¦           ¦       ¦           manifest.json
+    ¦           ¦       ¦           
+    ¦           ¦       +---ProbabilisticRevealTokenRegistry
+    ¦           ¦       +---ShaderCache
+    ¦           ¦       ¦       data_0
+    ¦           ¦       ¦       data_1
+    ¦           ¦       ¦       data_2
+    ¦           ¦       ¦       data_3
+    ¦           ¦       ¦       index
+    ¦           ¦       ¦       
+    ¦           ¦       +---SmartScreen
+    ¦           ¦       ¦   +---local
+    ¦           ¦       ¦   ¦       downloadCache
+    ¦           ¦       ¦   ¦       downloadCache_
+    ¦           ¦       ¦   ¦       uriCache
+    ¦           ¦       ¦   ¦       uriCache_
+    ¦           ¦       ¦   ¦       
+    ¦           ¦       ¦   +---RemoteData
+    ¦           ¦       ¦           customSettings
+    ¦           ¦       ¦           customSettings_F95BA787499AB4FA9EFFF472CE383A14
+    ¦           ¦       ¦           edgeSettings
+    ¦           ¦       ¦           edgeSettings_2.0-0
+    ¦           ¦       ¦           topTraffic
+    ¦           ¦       ¦           topTraffic_638004170464094982
+    ¦           ¦       ¦           
+    ¦           ¦       +---Speech Recognition
+    ¦           ¦       ¦   +---1.15.0.1
+    ¦           ¦       ¦           manifest.json
+    ¦           ¦       ¦           Microsoft.CognitiveServices.Speech.core.dll
+    ¦           ¦       ¦           
+    ¦           ¦       +---Subresource Filter
+    ¦           ¦       ¦   +---Indexed Rules
+    ¦           ¦       ¦   ¦   +---37
+    ¦           ¦       ¦   ¦       +---10.34.0.81
+    ¦           ¦       ¦   ¦               LICENSE
+    ¦           ¦       ¦   ¦               Ruleset Data
+    ¦           ¦       ¦   ¦               
+    ¦           ¦       ¦   +---Unindexed Rules
+    ¦           ¦       ¦       +---10.34.0.81
+    ¦           ¦       ¦               adblock_snippet.js
+    ¦           ¦       ¦               Filtering Rules
+    ¦           ¦       ¦               Filtering Rules-AA
+    ¦           ¦       ¦               Filtering Rules-CA
+    ¦           ¦       ¦               LICENSE
+    ¦           ¦       ¦               manifest.json
+    ¦           ¦       ¦               Part-DE
+    ¦           ¦       ¦               Part-ES
+    ¦           ¦       ¦               Part-FR
+    ¦           ¦       ¦               Part-IT
+    ¦           ¦       ¦               Part-NL
+    ¦           ¦       ¦               Part-RU
+    ¦           ¦       ¦               Part-ZH
+    ¦           ¦       ¦               
+    ¦           ¦       +---Trust Protection Lists
+    ¦           ¦       +---TrustTokenKeyCommitments
+    ¦           ¦       ¦   +---2025.8.25.1
+    ¦           ¦       ¦       ¦   keys.json
+    ¦           ¦       ¦       ¦   LICENSE
+    ¦           ¦       ¦       ¦   manifest.json
+    ¦           ¦       ¦       ¦   
+    ¦           ¦       ¦       +---_metadata
+    ¦           ¦       ¦               verified_contents.json
+    ¦           ¦       ¦               
+    ¦           ¦       +---WidevineCdm
+    ¦           ¦       +---ZxcvbnData
+    ¦           ¦           +---3.1.0.0
+    ¦           ¦                   english_wikipedia.txt
+    ¦           ¦                   female_names.txt
+    ¦           ¦                   male_names.txt
+    ¦           ¦                   manifest.json
+    ¦           ¦                   passwords.txt
+    ¦           ¦                   ranked_dicts
+    ¦           ¦                   surnames.txt
+    ¦           ¦                   test.txt
+    ¦           ¦                   us_tv_and_film.txt
+    ¦           ¦                   
+    ¦           +---runtimes
+    ¦               +---win-arm64
+    ¦               ¦   +---native
+    ¦               ¦           WebView2Loader.dll
+    ¦               ¦           
+    ¦               +---win-x64
+    ¦               ¦   +---native
+    ¦               ¦           WebView2Loader.dll
+    ¦               ¦           
+    ¦               +---win-x86
+    ¦                   +---native
+    ¦                           WebView2Loader.dll
+    ¦                           
+    +---obj
+        ¦   InterfazDeUsuario.csproj.nuget.dgspec.json
+        ¦   InterfazDeUsuario.csproj.nuget.g.props
+        ¦   InterfazDeUsuario.csproj.nuget.g.targets
+        ¦   project.assets.json
+        ¦   project.nuget.cache
+        ¦   
+        +---Debug
+            +---net8.0-windows
+                ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+                ¦   apphost.exe
+                ¦   Interfaz.F19302CA.Up2Date
+                ¦   InterfazDeUsuario.AssemblyInfo.cs
+                ¦   InterfazDeUsuario.AssemblyInfoInputs.cache
+                ¦   InterfazDeUsuario.assets.cache
+                ¦   InterfazDeUsuario.csproj.AssemblyReference.cache
+                ¦   InterfazDeUsuario.csproj.BuildWithSkipAnalyzers
+                ¦   InterfazDeUsuario.csproj.CoreCompileInputs.cache
+                ¦   InterfazDeUsuario.csproj.FileListAbsolute.txt
+                ¦   InterfazDeUsuario.csproj.GenerateResource.cache
+                ¦   InterfazDeUsuario.designer.deps.json
+                ¦   InterfazDeUsuario.designer.runtimeconfig.json
+                ¦   InterfazDeUsuario.dll
+                ¦   InterfazDeUsuario.GeneratedMSBuildEditorConfig.editorconfig
+                ¦   InterfazDeUsuario.genruntimeconfig.cache
+                ¦   InterfazDeUsuario.GlobalUsings.g.cs
+                ¦   InterfazDeUsuario.pdb
+                ¦   InterfazDeUsuario.RaicesForm.resources
+                ¦   InterfazDeUsuario.sourcelink.json
+                ¦   
                 +---ref
-                \---refint
+                ¦       InterfazDeUsuario.dll
+                ¦       
+                +---refint
+                        InterfazDeUsuario.dll
+                        

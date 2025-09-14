@@ -116,3 +116,4 @@ C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\Int
 C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.pdb
 C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.genruntimeconfig.cache
 C:\Users\juani\OneDrive\Escritorio\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\ref\InterfazDeUsuario.dll
+D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\obj\Debug\net8.0-windows\InterfazDeUsuario.SistemasForm.resources
