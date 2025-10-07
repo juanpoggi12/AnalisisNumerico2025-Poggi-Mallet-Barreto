@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\regresioninterpolacion\\regresionpolinomial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\regresioninterpolacion\\regresionpolinomial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\regresioninterpolacion\\regresionlineal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\regresioninterpolacion\\regresionlineal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\regresioninterpolacion\\funcionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\regresioninterpolacion\\funcionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\regresioninterpolacion\\resultadoregresion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\regresioninterpolacion\\resultadoregresion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\sistemasecuaciones\\gaussseidel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\sistemasecuaciones\\gaussseidel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\sistemasecuaciones\\gaussjordan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\sistemasecuaciones\\gaussjordan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\metodosabiertos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\metodosabiertos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\metodoscerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\metodoscerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\sistemasecuaciones\\resultadosistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,7 +55,7 @@
       "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\sistemasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\interfazdeusuario\\sistemasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\sistemasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -54,18 +82,6 @@
       "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\analisisnumerico2025poggi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\sistemasecuaciones\\gaussjordan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\sistemasecuaciones\\gaussjordan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\metodosabiertos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\metodosabiertos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\metodoscerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\metodoscerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,36 +101,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegresionPolinomial.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\RegresionInterpolacion\\RegresionPolinomial.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\RegresionInterpolacion\\RegresionPolinomial.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\RegresionInterpolacion\\RegresionPolinomial.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\RegresionInterpolacion\\RegresionPolinomial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T01:59:23.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegresionLineal.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\RegresionInterpolacion\\RegresionLineal.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\RegresionInterpolacion\\RegresionLineal.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\RegresionInterpolacion\\RegresionLineal.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\RegresionInterpolacion\\RegresionLineal.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T01:58:52.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionBuilder.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\RegresionInterpolacion\\FuncionBuilder.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\RegresionInterpolacion\\FuncionBuilder.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\RegresionInterpolacion\\FuncionBuilder.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\RegresionInterpolacion\\FuncionBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T01:58:41.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SistemasForm.Designer.cs",
-              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.Designer.cs",
-              "RelativeDocumentMoniker": "InterfazDeUsuario\\SistemasForm.Designer.cs",
-              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.Designer.cs",
-              "RelativeToolTip": "InterfazDeUsuario\\SistemasForm.Designer.cs",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAkwBEBAAABAAAAAAAAAA==",
+              "Title": "ResultadoRegresion.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\RegresionInterpolacion\\ResultadoRegresion.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\RegresionInterpolacion\\ResultadoRegresion.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\RegresionInterpolacion\\ResultadoRegresion.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\RegresionInterpolacion\\ResultadoRegresion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T20:39:22.474Z",
+              "WhenOpened": "2025-10-07T01:58:32.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GaussSeidel.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussSeidel.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussSeidel.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussSeidel.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussSeidel.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T21:14:00.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MetodosCerrados.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T12:54:03.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Program.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Program.cs",
@@ -124,33 +200,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SistemasForm.Designer.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.Designer.cs",
+              "RelativeDocumentMoniker": "InterfazDeUsuario\\SistemasForm.Designer.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.Designer.cs",
+              "RelativeToolTip": "InterfazDeUsuario\\SistemasForm.Designer.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAkwBEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T20:39:22.474Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\Program.cs",
-              "RelativeDocumentMoniker": "InterfazDeUsuario\\Program.cs",
-              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\Program.cs",
-              "RelativeToolTip": "InterfazDeUsuario\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Title": "GaussJordan.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussJordan.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussJordan.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussJordan.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussJordan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T19:48:41.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T21:14:01.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResultadoSistema.cs",
-              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\ResultadoSistema.cs",
-              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\ResultadoSistema.cs",
-              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\ResultadoSistema.cs",
-              "RelativeToolTip": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\ResultadoSistema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:14:01.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Ecuaciones.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\Ecuaciones.cs",
               "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\Ecuaciones.cs",
@@ -162,20 +236,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GaussSeidel.cs",
-              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussSeidel.cs",
-              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussSeidel.cs",
-              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussSeidel.cs",
-              "RelativeToolTip": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussSeidel.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwHAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ResultadoSistema.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\ResultadoSistema.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\ResultadoSistema.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\ResultadoSistema.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\ResultadoSistema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:14:00.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T21:14:01.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "TestSistemas.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\TestSistemas.cs",
               "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\TestSistemas.cs",
@@ -183,12 +256,11 @@
               "RelativeToolTip": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\TestSistemas.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:19:02.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T21:19:02.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "SistemasForm.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\SistemasForm.cs",
@@ -201,19 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SistemasForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.cs",
-              "RelativeDocumentMoniker": "InterfazDeUsuario\\SistemasForm.cs",
-              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InterfazDeUsuario\\SistemasForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T20:39:09.943Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "AnalisisNumerico2025Poggi.csproj",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
               "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
@@ -225,31 +285,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MetodosCerrados.cs",
-              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
-              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
-              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
-              "RelativeToolTip": "AnalisisNumerico2025Poggi\\MetodosCerrados.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAIwA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T12:54:03.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "MetodosAbiertos.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\MetodosAbiertos.cs",
               "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\MetodosAbiertos.cs",
               "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\MetodosAbiertos.cs",
               "RelativeToolTip": "AnalisisNumerico2025Poggi\\MetodosAbiertos.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwFYAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T21:31:22.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\Program.cs",
               "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\Program.cs",
@@ -261,7 +309,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\Program.cs",
+              "RelativeDocumentMoniker": "InterfazDeUsuario\\Program.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\Program.cs",
+              "RelativeToolTip": "InterfazDeUsuario\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T19:48:41.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "RaicesForm.Designer.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.Designer.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\RaicesForm.Designer.cs",
@@ -273,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "RaicesForm.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\RaicesForm.cs",
@@ -281,23 +341,12 @@
               "RelativeToolTip": "InterfazDeUsuario\\RaicesForm.cs",
               "ViewState": "AgIAAA8CAAAAAAAAAAAowCICAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T17:00:55.1Z"
+              "WhenOpened": "2025-08-27T17:00:55.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GaussJordan.cs",
-              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussJordan.cs",
-              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussJordan.cs",
-              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussJordan.cs",
-              "RelativeToolTip": "AnalisisNumerico2025Poggi\\SistemasEcuaciones\\GaussJordan.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwBgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T21:14:01.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Resultado.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\Resultado.cs",
               "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\Resultado.cs",
@@ -309,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "AnalisisNumerico2025Poggi",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
               "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj",
@@ -319,8 +368,23 @@
               "WhenOpened": "2025-09-11T23:42:46.967Z"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
+              "Title": "SistemasForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.cs",
+              "RelativeDocumentMoniker": "InterfazDeUsuario\\SistemasForm.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InterfazDeUsuario\\SistemasForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T20:39:09.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "RaicesForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\RaicesForm.cs",

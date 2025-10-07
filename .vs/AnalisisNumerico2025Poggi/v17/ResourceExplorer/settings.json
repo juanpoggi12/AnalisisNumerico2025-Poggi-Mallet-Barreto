@@ -1,1 +1,11 @@
-{"CustomColumnOrderings":{"name":0,"file-path":1,"file-name":2,"neutral-value":3,"neutral-comment":4,"type":5},"ShowValidationErrors":true,"SelectedResourceGroups":["D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.resx","D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\SistemasForm.resx"],"VisibleColumnKeys":["name","neutral-value"]}
+{
+  "ShowEmptyProjects": false,
+  "SelectedGroups": [],
+  "ExpandedProjects": [],
+  "EnableSpellChecker": true,
+  "ColumnOrder": [],
+  "VisibleColumnKeys": [
+    "name",
+    "neutral-value"
+  ]
+}
