@@ -11,7 +11,7 @@ namespace InterfazDeUsuario
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new SistemasForm());
+            Application.Run(new IntegracionForm());
         }
     }
 }

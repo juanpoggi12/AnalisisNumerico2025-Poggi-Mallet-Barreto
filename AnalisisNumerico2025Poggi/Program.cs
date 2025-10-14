@@ -1,4 +1,5 @@
-﻿using AnalisisNumerico2025Poggi.SistemasEcuaciones;
+﻿using AnalisisNumerico2025Poggi.Integracion;
+using AnalisisNumerico2025Poggi.SistemasEcuaciones;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,9 @@ namespace AnalisisNumerico2025Poggi
     {
         static void Main(string[] args)
         {
-            TestSistemas.Probar();
+            TestIntegracion.Probar();
+            Console.WriteLine("Presione cualquier tecla para cerrar...");
+            Console.ReadKey();
         }
     }
 }

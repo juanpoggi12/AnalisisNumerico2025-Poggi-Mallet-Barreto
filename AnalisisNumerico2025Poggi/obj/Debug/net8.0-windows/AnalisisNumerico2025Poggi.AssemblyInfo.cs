@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnalisisNumerico2025Poggi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7a431b45e9ed3deb544a6788b5d7ef8adb924df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be7d4924a5c9a4fa17f28f8086a1e15de2c86d46")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnalisisNumerico2025Poggi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnalisisNumerico2025Poggi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
