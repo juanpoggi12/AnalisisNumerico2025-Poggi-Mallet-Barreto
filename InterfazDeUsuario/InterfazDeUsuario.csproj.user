@@ -4,6 +4,9 @@
     <Compile Update="RaicesForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="RegresionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SistemasForm.cs">
       <SubType>Form</SubType>
     </Compile>
