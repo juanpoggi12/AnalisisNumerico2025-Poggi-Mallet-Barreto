@@ -1,9 +1,6 @@
-2025/08/29-12:36:02.832 38d4 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/08/29-12:36:02.839 38d4 Recovering log #45
-2025/08/29-12:36:02.842 38d4 Reusing old log D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000045.log 
-2025/08/29-12:37:02.860 5358 Level-0 table #50: started
-2025/08/29-12:37:02.902 5358 Level-0 table #50: 109149 bytes OK
-2025/08/29-12:37:02.921 5358 Delete type=0 #45
-2025/08/29-12:39:15.272 5358 Level-0 table #52: started
-2025/08/29-12:39:15.316 5358 Level-0 table #52: 208411 bytes OK
-2025/08/29-12:39:15.341 5358 Delete type=0 #49
+2025/10/21-15:34:01.364 4d1c Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/21-15:34:01.378 4d1c Recovering log #100
+2025/10/21-15:34:01.383 4d1c Reusing old log D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000100.log 
+2025/10/21-15:34:55.873 543c Level-0 table #104: started
+2025/10/21-15:34:55.906 543c Level-0 table #104: 109095 bytes OK
+2025/10/21-15:34:55.967 543c Delete type=0 #100

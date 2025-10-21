@@ -202,26 +202,31 @@ namespace InterfazDeUsuario
         {
             if (string.IsNullOrWhiteSpace(funcion)) return;
 
-            // Normalizar función para GeoGebra
-            string expr = funcion.Trim().Replace(",", "."); // punto decimal
-            // Comando Function[expr, a, b]
-            string functionCmd = $"command=Function[{Uri.EscapeDataString(expr)},{xi.ToString(CultureInfo.InvariantCulture)},{xd.ToString(CultureInfo.InvariantCulture)}]";
+            // Normalizar expresión
+            string expr = funcion.Trim().Replace(",", ".");
+            string xiStr = xi.ToString(CultureInfo.InvariantCulture);
+            string xdStr = xd.ToString(CultureInfo.InvariantCulture);
 
-            // Para representar el área, utilizamos una poligonal simple aproximando el área con recta base y curva:
-            // Creamos puntos en (xi,0) y (xd,0) y la función en el intervalo.
-            string A = $"({xi.ToString(CultureInfo.InvariantCulture)},0)";
-            string B = $"({xd.ToString(CultureInfo.InvariantCulture)},0)";
-            string cmdA = $"command=Point[{A}]";
-            string cmdB = $"command=Point[{B}]";
+            // 1️⃣ Definir la función f(x)
+            string fDef = $"f(x)={expr}";
 
-            // Opcional: sombreamos con IntegralBetween si está disponible en GeoGebra CAS del calculator
-            // command=IntegralBetween[f, g, a, b] — donde g(x)=0 (eje x)
-            string integralCmd = $"command=IntegralBetween[{Uri.EscapeDataString(expr)},0,{xi.ToString(CultureInfo.InvariantCulture)},{xd.ToString(CultureInfo.InvariantCulture)}]";
+            // 2️⃣ Dibujar la función en el intervalo
+            string funcCmd = $"Function[f,{xiStr},{xdStr}]";
 
-            string url = "https://www.geogebra.org/calculator?" + string.Join("&", new[] { functionCmd, cmdA, cmdB, integralCmd });
+            // 3️⃣ Sombrear el área bajo la curva respecto al eje x
+            string areaCmd = $"IntegralBetween[f,0,{xiStr},{xdStr}]";
+
+            // 4️⃣ (Opcional) Marcar los límites Xi y Xd
+            string aCmd = $"A=({xiStr},0)";
+            string bCmd = $"B=({xdStr},0)";
+
+            // ✅ Combinar todo en un único "command=" con punto y coma
+            string allCmds = $"{fDef};{funcCmd};{areaCmd};{aCmd};{bCmd}";
+            string url = "https://www.geogebra.org/calculator?command=" + Uri.EscapeDataString(allCmds);
 
             await webViewGeoGebra.EnsureCoreWebView2Async(null);
             webViewGeoGebra.CoreWebView2.Navigate(url);
         }
+
     }
 }

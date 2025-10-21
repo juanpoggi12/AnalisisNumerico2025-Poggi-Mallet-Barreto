@@ -1,40 +1,30 @@
-2025/10/14-15:39:34.647 5718 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/10/14-15:39:34.654 5718 Recovering log #51
-2025/10/14-15:39:34.797 5718 Level-0 table #54: started
-2025/10/14-15:39:34.929 5718 Level-0 table #54: 109013 bytes OK
-2025/10/14-15:39:34.987 5718 Delete type=0 #51
-2025/10/14-15:40:35.077 44b8 Level-0 table #57: started
-2025/10/14-15:40:35.118 44b8 Level-0 table #57: 109196 bytes OK
-2025/10/14-15:40:35.131 44b8 Delete type=0 #55
-2025/10/14-15:40:35.132 5718 Compacting 4@0 + 1@1 files
-2025/10/14-15:40:35.164 5718 Generated table #58@0: 8 keys, 109237 bytes
-2025/10/14-15:40:35.164 5718 Compacted 4@0 + 1@1 files => 109237 bytes
-2025/10/14-15:40:35.189 5718 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/10/14-15:40:35.190 5718 Delete type=2 #47
-2025/10/14-15:40:35.190 5718 Delete type=2 #50
-2025/10/14-15:40:35.190 5718 Delete type=2 #52
-2025/10/14-15:40:35.191 5718 Delete type=2 #54
-2025/10/14-15:40:35.191 5718 Delete type=2 #57
-2025/10/14-15:43:37.390 44b8 Level-0 table #60: started
-2025/10/14-15:43:37.422 44b8 Level-0 table #60: 109102 bytes OK
-2025/10/14-15:43:37.437 44b8 Delete type=0 #56
-2025/10/14-15:45:37.954 44b8 Level-0 table #62: started
-2025/10/14-15:45:37.987 44b8 Level-0 table #62: 109059 bytes OK
-2025/10/14-15:45:37.999 44b8 Delete type=0 #59
-2025/10/14-15:47:38.518 44b8 Level-0 table #64: started
-2025/10/14-15:47:38.542 44b8 Level-0 table #64: 109059 bytes OK
-2025/10/14-15:47:38.561 44b8 Delete type=0 #61
-2025/10/14-15:55:36.269 44b8 Level-0 table #66: started
-2025/10/14-15:55:36.301 44b8 Level-0 table #66: 109466 bytes OK
-2025/10/14-15:55:36.319 44b8 Delete type=0 #63
-2025/10/14-15:55:36.319 44b8 Compacting 4@0 + 1@1 files
-2025/10/14-15:55:36.344 44b8 Generated table #67@0: 8 keys, 109245 bytes
-2025/10/14-15:55:36.344 44b8 Compacted 4@0 + 1@1 files => 109245 bytes
-2025/10/14-15:55:36.359 44b8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/10/14-15:55:36.360 44b8 Delete type=2 #58
-2025/10/14-15:55:36.360 44b8 Delete type=2 #60
-2025/10/14-15:55:36.360 44b8 Delete type=2 #62
-2025/10/14-15:55:36.360 44b8 Delete type=2 #64
-2025/10/14-15:55:36.360 44b8 Delete type=2 #66
-2025/10/14-15:56:08.507 5718 Level-0 table #69: started
-2025/10/14-15:56:08.669 5718 Level-0 table #69: 109059 bytes OK
+2025/10/21-15:35:35.208 4458 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/21-15:35:35.217 4458 Recovering log #103
+2025/10/21-15:35:35.220 4458 Reusing old log D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000103.log 
+2025/10/21-15:36:35.239 5b68 Level-0 table #107: started
+2025/10/21-15:36:35.264 5b68 Level-0 table #107: 109098 bytes OK
+2025/10/21-15:36:35.286 5b68 Delete type=0 #103
+2025/10/21-15:38:25.753 5b68 Level-0 table #109: started
+2025/10/21-15:38:25.799 5b68 Level-0 table #109: 141782 bytes OK
+2025/10/21-15:38:25.822 5b68 Delete type=0 #106
+2025/10/21-15:38:25.823 5b68 Compacting 4@0 + 1@1 files
+2025/10/21-15:38:25.854 5b68 Generated table #110@0: 8 keys, 250848 bytes
+2025/10/21-15:38:25.854 5b68 Compacted 4@0 + 1@1 files => 250848 bytes
+2025/10/21-15:38:25.880 5b68 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/21-15:38:25.881 5b68 Delete type=2 #99
+2025/10/21-15:38:25.881 5b68 Delete type=2 #101
+2025/10/21-15:38:25.881 5b68 Delete type=2 #104
+2025/10/21-15:38:25.881 5b68 Delete type=2 #107
+2025/10/21-15:38:25.881 5b68 Delete type=2 #109
+2025/10/21-15:39:14.332 5b68 Level-0 table #112: started
+2025/10/21-15:39:14.365 5b68 Level-0 table #112: 141782 bytes OK
+2025/10/21-15:39:14.390 5b68 Delete type=0 #108
+2025/10/21-15:40:02.916 5b68 Level-0 table #114: started
+2025/10/21-15:40:02.942 5b68 Level-0 table #114: 141782 bytes OK
+2025/10/21-15:40:02.963 5b68 Delete type=0 #111
+2025/10/21-15:40:51.485 5b68 Level-0 table #116: started
+2025/10/21-15:40:51.526 5b68 Level-0 table #116: 141782 bytes OK
+2025/10/21-15:40:51.550 5b68 Delete type=0 #113
+2025/10/21-15:41:28.855 5b68 Level-0 table #118: started
+2025/10/21-15:41:28.893 5b68 Level-0 table #118: 141782 bytes OK
+2025/10/21-15:41:28.923 5b68 Delete type=0 #115

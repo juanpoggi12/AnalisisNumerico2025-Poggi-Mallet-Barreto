@@ -1,0 +1,65 @@
+## Archivos de usuario de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Directorios de compilación
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Bb]uild/
+
+## Configuración de VS
+.vs/
+
+## Archivos de dependencias
+packages/
+*.nupkg
+*.snupkg
+
+## Archivos de publicación
+publish/
+*.Publish.xml
+
+## Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+
+## Archivos de test/coverage
+TestResults/
+*.coverage
+*.coveragexml
+
+## Archivos de sistema
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+## Archivos de Rider/Resharper
+.idea/
+*.DotSettings.user
+
+## 🧩 WebView2 (importante para evitar tu error)
+*/EBWebView2/
+*/EBWebView/
+*/WebView2/
+*/EWebView2/
+*/EWebView/
+*/Default/Network/
+*/Default/Local Storage/
+*.ldb
+*.log
+*.db
+
+## Otros generados por Visual Studio o NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Configuraciones de usuario
+*.userprefs

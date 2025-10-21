@@ -165,31 +165,33 @@ namespace InterfazDeUsuario
             if (string.IsNullOrWhiteSpace(funcion)) return;
 
             // Normalizar la función
-            funcion = funcion.Trim();
-            funcion = funcion.Replace(",", ".");        // usar punto decimal
+            funcion = funcion.Trim().Replace(",", ".");
             if (funcion.StartsWith("y=")) funcion = funcion.Substring(2);
             if (funcion.StartsWith("+")) funcion = funcion.Substring(1);
-            funcion = "y=" + funcion;                   // volver a poner el prefijo correcto
 
-            string funcionUrl = Uri.EscapeDataString(funcion);
+            string expresion = funcion.Trim();
 
-            // Comando para la función en [-10,10]
-            // Quitar el "y=" antes de mandarlo a GeoGebra
-            string expresion = funcion.Replace("y=", "").Trim();
-            string expresionUrl = Uri.EscapeDataString(expresion);
+            var commands = new List<string>();
 
-            // Ahora sí, solo la expresión
-            var commands = new List<string> { $"command=Function[{expresionUrl},-10,10]" };
+            // Agregar función en el rango [-10,10]
+            commands.Add($"Function[{expresion}, -10, 10]");
 
-            // Agregar puntos
-            foreach (var p in puntos)
+            // Agregar puntos como P1, P2, ...
+            if (puntos != null)
             {
-                string x = p[0].ToString(CultureInfo.InvariantCulture);
-                string y = p[1].ToString(CultureInfo.InvariantCulture);
-                commands.Add($"command=Point[({x},{y})]");
+                int idx = 1;
+                foreach (var p in puntos)
+                {
+                    string x = p[0].ToString(CultureInfo.InvariantCulture);
+                    string y = p[1].ToString(CultureInfo.InvariantCulture);
+                    commands.Add($"P{idx}=({x},{y})");
+                    idx++;
+                }
             }
 
-            string url = "https://www.geogebra.org/calculator?" + string.Join("&", commands);
+            // Combinar comandos en una sola cadena
+            string joinedCommands = string.Join(";", commands);
+            string url = "https://www.geogebra.org/calculator?command=" + Uri.EscapeDataString(joinedCommands);
 
             await webViewGeoGebra.EnsureCoreWebView2Async(null);
             webViewGeoGebra.CoreWebView2.Navigate(url);
