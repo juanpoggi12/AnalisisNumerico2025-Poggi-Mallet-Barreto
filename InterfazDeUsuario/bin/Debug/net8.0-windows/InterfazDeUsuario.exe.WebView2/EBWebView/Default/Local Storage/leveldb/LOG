@@ -1,30 +1,5 @@
-2025/10/21-15:35:35.208 4458 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/10/21-15:35:35.217 4458 Recovering log #103
-2025/10/21-15:35:35.220 4458 Reusing old log D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000103.log 
-2025/10/21-15:36:35.239 5b68 Level-0 table #107: started
-2025/10/21-15:36:35.264 5b68 Level-0 table #107: 109098 bytes OK
-2025/10/21-15:36:35.286 5b68 Delete type=0 #103
-2025/10/21-15:38:25.753 5b68 Level-0 table #109: started
-2025/10/21-15:38:25.799 5b68 Level-0 table #109: 141782 bytes OK
-2025/10/21-15:38:25.822 5b68 Delete type=0 #106
-2025/10/21-15:38:25.823 5b68 Compacting 4@0 + 1@1 files
-2025/10/21-15:38:25.854 5b68 Generated table #110@0: 8 keys, 250848 bytes
-2025/10/21-15:38:25.854 5b68 Compacted 4@0 + 1@1 files => 250848 bytes
-2025/10/21-15:38:25.880 5b68 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/10/21-15:38:25.881 5b68 Delete type=2 #99
-2025/10/21-15:38:25.881 5b68 Delete type=2 #101
-2025/10/21-15:38:25.881 5b68 Delete type=2 #104
-2025/10/21-15:38:25.881 5b68 Delete type=2 #107
-2025/10/21-15:38:25.881 5b68 Delete type=2 #109
-2025/10/21-15:39:14.332 5b68 Level-0 table #112: started
-2025/10/21-15:39:14.365 5b68 Level-0 table #112: 141782 bytes OK
-2025/10/21-15:39:14.390 5b68 Delete type=0 #108
-2025/10/21-15:40:02.916 5b68 Level-0 table #114: started
-2025/10/21-15:40:02.942 5b68 Level-0 table #114: 141782 bytes OK
-2025/10/21-15:40:02.963 5b68 Delete type=0 #111
-2025/10/21-15:40:51.485 5b68 Level-0 table #116: started
-2025/10/21-15:40:51.526 5b68 Level-0 table #116: 141782 bytes OK
-2025/10/21-15:40:51.550 5b68 Delete type=0 #113
-2025/10/21-15:41:28.855 5b68 Level-0 table #118: started
-2025/10/21-15:41:28.893 5b68 Level-0 table #118: 141782 bytes OK
-2025/10/21-15:41:28.923 5b68 Delete type=0 #115
+2025/10/28-17:47:27.369 53e0 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/28-17:47:27.376 53e0 Recovering log #235
+2025/10/28-17:47:27.378 53e0 Reusing old log D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000235.log 
+2025/10/28-17:47:44.200 53e0 Level-0 table #239: started
+2025/10/28-17:47:44.361 53e0 Level-0 table #239: 109446 bytes OK

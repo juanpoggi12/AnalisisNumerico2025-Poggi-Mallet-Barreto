@@ -34,6 +34,15 @@ namespace InterfazDeUsuario
         private Label lblMensaje;
         private TextBox txtMensaje;
 
+        // Recta modificada
+        private Label lblFuncionModificada;
+        private TextBox txtFuncionModificada;
+        private Button btnCalcularRectaModificada;
+        private Label lblCorrelacionModificada;
+        private TextBox txtCorrelacionModificada;
+        private Label lblMensajeModificada;
+        private TextBox txtMensajeModificada;
+
         // Acciones
         private Button btnCalcular;
 
@@ -75,6 +84,47 @@ namespace InterfazDeUsuario
             txtECM = new TextBox();
             lblMensaje = new Label();
             txtMensaje = new TextBox();
+
+            // Función modificada
+            lblFuncionModificada = new Label();
+            lblFuncionModificada.AutoSize = true;
+            lblFuncionModificada.Text = "Función modificada";
+            lblFuncionModificada.Location = new Point(820, 70);
+
+            txtFuncionModificada = new TextBox();
+            txtFuncionModificada.Location = new Point(820, 95);
+            txtFuncionModificada.Size = new Size(400, 27);
+            txtFuncionModificada.PlaceholderText = "y = 1.5x - 3";
+
+            // Botón calcular recta modificada
+            btnCalcularRectaModificada = new Button();
+            btnCalcularRectaModificada.Text = "Calcular recta modificada";
+            btnCalcularRectaModificada.Location = new Point(820, 135);
+            btnCalcularRectaModificada.Size = new Size(200, 30);
+            btnCalcularRectaModificada.Click += btnCalcularRectaModificada_Click;
+
+            // Correlación modificada
+            lblCorrelacionModificada = new Label();
+            lblCorrelacionModificada.AutoSize = true;
+            lblCorrelacionModificada.Text = "Correlación modificada (R %)";
+            lblCorrelacionModificada.Location = new Point(820, 180);
+
+            txtCorrelacionModificada = new TextBox();
+            txtCorrelacionModificada.Location = new Point(820, 205);
+            txtCorrelacionModificada.Size = new Size(180, 27);
+            txtCorrelacionModificada.ReadOnly = true;
+
+            // Mensaje modificado
+            lblMensajeModificada = new Label();
+            lblMensajeModificada.AutoSize = true;
+            lblMensajeModificada.Text = "Mensaje recta modificada";
+            lblMensajeModificada.Location = new Point(820, 245);
+
+            txtMensajeModificada = new TextBox();
+            txtMensajeModificada.Location = new Point(820, 270);
+            txtMensajeModificada.Size = new Size(400, 100);
+            txtMensajeModificada.Multiline = true;
+            txtMensajeModificada.ReadOnly = true;
 
             btnCalcular = new Button();
 
@@ -223,6 +273,14 @@ namespace InterfazDeUsuario
             Controls.Add(lblMensaje);
             Controls.Add(txtMensaje);
             Controls.Add(webViewGeoGebra);
+
+            Controls.Add(lblFuncionModificada);
+            Controls.Add(txtFuncionModificada);
+            Controls.Add(btnCalcularRectaModificada);
+            Controls.Add(lblCorrelacionModificada);
+            Controls.Add(txtCorrelacionModificada);
+            Controls.Add(lblMensajeModificada);
+            Controls.Add(txtMensajeModificada);
 
             ResumeLayout(false);
         }

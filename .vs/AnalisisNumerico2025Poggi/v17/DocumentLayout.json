@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\regresionform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\regresionform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\integracionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\integracionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\regresionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\regresionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\regresionform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\regresionform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\integracion\\rectamodificadaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\integracion\\rectamodificadaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\analisisnumerico2025poggi\\integracion\\resultadorectamodificada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9C6FF2-2018-4EF5-8974-87A99D1AB257}|AnalisisNumerico2025Poggi\\AnalisisNumerico2025Poggi.csproj|solutionrelative:analisisnumerico2025poggi\\integracion\\resultadorectamodificada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\raicesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|d:\\universidad\\3ero\\anailisis numerico\\tp 1\\analisisnumerico2025-poggi-mallet-barreto\\interfazdeusuario\\integracionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2E790B-7132-4F61-B802-A73F472CAD42}|InterfazDeUsuario\\InterfazDeUsuario.csproj|solutionrelative:interfazdeusuario\\integracionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,15 +59,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RegresionForm.Designer.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RegresionForm.Designer.cs",
+              "RelativeDocumentMoniker": "InterfazDeUsuario\\RegresionForm.Designer.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RegresionForm.Designer.cs",
+              "RelativeToolTip": "InterfazDeUsuario\\RegresionForm.Designer.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAArwHgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T20:31:15.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RectaModificadaService.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\Integracion\\RectaModificadaService.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\Integracion\\RectaModificadaService.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\Integracion\\RectaModificadaService.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\Integracion\\RectaModificadaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T20:29:25.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResultadoRectaModificada.cs",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\Integracion\\ResultadoRectaModificada.cs",
+              "RelativeDocumentMoniker": "AnalisisNumerico2025Poggi\\Integracion\\ResultadoRectaModificada.cs",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\AnalisisNumerico2025Poggi\\Integracion\\ResultadoRectaModificada.cs",
+              "RelativeToolTip": "AnalisisNumerico2025Poggi\\Integracion\\ResultadoRectaModificada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T20:29:01.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RaicesForm.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\RaicesForm.cs",
               "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RaicesForm.cs",
               "RelativeToolTip": "InterfazDeUsuario\\RaicesForm.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAkwJAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwJAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T18:36:52.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T18:36:52.921Z"
             },
             {
               "$type": "Document",
@@ -69,19 +123,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "RegresionForm.resx",
+              "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RegresionForm.resx",
+              "RelativeDocumentMoniker": "InterfazDeUsuario\\RegresionForm.resx",
+              "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RegresionForm.resx",
+              "RelativeToolTip": "InterfazDeUsuario\\RegresionForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-28T20:31:16.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RegresionForm.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RegresionForm.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\RegresionForm.cs",
               "ToolTip": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\RegresionForm.cs",
               "RelativeToolTip": "InterfazDeUsuario\\RegresionForm.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAuwLUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T03:19:00.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "IntegracionForm.cs",
               "DocumentMoniker": "D:\\Universidad\\3ero\\Anailisis Numerico\\TP 1\\AnalisisNumerico2025-Poggi-Mallet-Barreto\\InterfazDeUsuario\\IntegracionForm.cs",
               "RelativeDocumentMoniker": "InterfazDeUsuario\\IntegracionForm.cs",
@@ -89,8 +155,7 @@
               "RelativeToolTip": "InterfazDeUsuario\\IntegracionForm.cs",
               "ViewState": "AgIAALgAAAAAAAAAAAAUwM8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T18:37:20.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T18:37:20.355Z"
             }
           ]
         },

@@ -1,11 +1,12 @@
-﻿using System;
+﻿using AnalisisNumerico2025Poggi.Integracion;
+using AnalisisNumerico2025Poggi.Regresion;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AnalisisNumerico2025Poggi.Regresion;
 
 namespace InterfazDeUsuario
 {
@@ -123,6 +124,44 @@ namespace InterfazDeUsuario
                 MessageBox.Show("Error al calcular: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        private async void btnCalcularRectaModificada_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (_puntos.Count < 2)
+                {
+                    MessageBox.Show("Agregue al menos 2 puntos.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                string funcionModificada = txtFuncionModificada.Text?.Trim();
+                if (string.IsNullOrWhiteSpace(funcionModificada))
+                {
+                    MessageBox.Show("Debe ingresar la función modificada en el formato: y = a1x + a0",
+                                    "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Tolerancia desde la UI
+                double? tolerancia = null;
+                if (!string.IsNullOrWhiteSpace(txtTolerancia.Text))
+                    tolerancia = ParseDouble(txtTolerancia.Text, "Tolerancia") * 100; // convertir a %
+
+                var service = new RectaModificadaService();
+                var resultado = service.CalcularRRectaModificada(_puntos, funcionModificada, 6, tolerancia);
+
+                // Mostrar resultados
+                txtCorrelacionModificada.Text = resultado.RPorcentaje.ToString("0.####", CultureInfo.InvariantCulture) + " %";
+                txtMensajeModificada.Text = resultado.Mensaje;
+
+                // Graficar la recta modificada junto a los puntos
+                await GraficarRectaModificadaGeoGebraAsync(resultado.A1, resultado.A0, _puntos);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al calcular recta modificada: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
         // ----------------------------
         // Helpers
@@ -190,6 +229,34 @@ namespace InterfazDeUsuario
             }
 
             // Combinar comandos en una sola cadena
+            string joinedCommands = string.Join(";", commands);
+            string url = "https://www.geogebra.org/calculator?command=" + Uri.EscapeDataString(joinedCommands);
+
+            await webViewGeoGebra.EnsureCoreWebView2Async(null);
+            webViewGeoGebra.CoreWebView2.Navigate(url);
+        }
+
+        private async Task GraficarRectaModificadaGeoGebraAsync(double a1, double a0, List<double[]> puntos)
+        {
+            var commands = new List<string>();
+
+            // Recta modificada en [-10,10]
+            string funcCmd = $"Function[{a1.ToString(CultureInfo.InvariantCulture)}*x+{a0.ToString(CultureInfo.InvariantCulture)}, -10, 10]";
+            commands.Add(funcCmd);
+
+            // Puntos
+            if (puntos != null)
+            {
+                int idx = 1;
+                foreach (var p in puntos)
+                {
+                    string x = p[0].ToString(CultureInfo.InvariantCulture);
+                    string y = p[1].ToString(CultureInfo.InvariantCulture);
+                    commands.Add($"P{idx}=({x},{y})");
+                    idx++;
+                }
+            }
+
             string joinedCommands = string.Join(";", commands);
             string url = "https://www.geogebra.org/calculator?command=" + Uri.EscapeDataString(joinedCommands);
 

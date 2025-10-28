@@ -1,6 +1,20 @@
-2025/10/21-15:34:01.364 4d1c Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/10/21-15:34:01.378 4d1c Recovering log #100
-2025/10/21-15:34:01.383 4d1c Reusing old log D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000100.log 
-2025/10/21-15:34:55.873 543c Level-0 table #104: started
-2025/10/21-15:34:55.906 543c Level-0 table #104: 109095 bytes OK
-2025/10/21-15:34:55.967 543c Delete type=0 #100
+2025/10/28-17:38:51.780 58a4 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/28-17:38:51.814 58a4 Recovering log #227
+2025/10/28-17:38:51.870 58a4 Level-0 table #230: started
+2025/10/28-17:38:51.903 58a4 Level-0 table #230: 196029 bytes OK
+2025/10/28-17:38:51.929 58a4 Delete type=0 #227
+2025/10/28-17:39:52.022 5930 Level-0 table #233: started
+2025/10/28-17:39:52.047 5930 Level-0 table #233: 109142 bytes OK
+2025/10/28-17:39:52.064 5930 Delete type=0 #231
+2025/10/28-17:39:52.064 58a4 Compacting 4@0 + 1@1 files
+2025/10/28-17:39:52.083 58a4 Generated table #234@0: 8 keys, 109302 bytes
+2025/10/28-17:39:52.083 58a4 Compacted 4@0 + 1@1 files => 109302 bytes
+2025/10/28-17:39:52.104 58a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/28-17:39:52.105 58a4 Delete type=2 #224
+2025/10/28-17:39:52.105 58a4 Delete type=2 #226
+2025/10/28-17:39:52.105 58a4 Delete type=2 #228
+2025/10/28-17:39:52.105 58a4 Delete type=2 #230
+2025/10/28-17:39:52.105 58a4 Delete type=2 #233
+2025/10/28-17:42:54.463 5930 Level-0 table #236: started
+2025/10/28-17:42:54.491 5930 Level-0 table #236: 109016 bytes OK
+2025/10/28-17:42:54.511 5930 Delete type=0 #232
