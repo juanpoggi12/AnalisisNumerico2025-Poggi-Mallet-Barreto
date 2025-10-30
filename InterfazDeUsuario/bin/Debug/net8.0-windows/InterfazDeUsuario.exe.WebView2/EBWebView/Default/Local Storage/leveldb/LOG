@@ -1,5 +1,18 @@
-2025/10/28-17:47:27.369 53e0 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/10/28-17:47:27.376 53e0 Recovering log #235
-2025/10/28-17:47:27.378 53e0 Reusing old log D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000235.log 
-2025/10/28-17:47:44.200 53e0 Level-0 table #239: started
-2025/10/28-17:47:44.361 53e0 Level-0 table #239: 109446 bytes OK
+2025/10/29-22:06:49.960 7a8 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/29-22:06:49.970 7a8 Recovering log #266
+2025/10/29-22:06:49.972 7a8 Reusing old log D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000266.log 
+2025/10/29-22:07:49.985 56f8 Level-0 table #270: started
+2025/10/29-22:07:50.012 56f8 Level-0 table #270: 109144 bytes OK
+2025/10/29-22:07:50.040 56f8 Delete type=0 #266
+2025/10/29-22:07:50.041 56f8 Compacting 4@0 + 1@1 files
+2025/10/29-22:07:50.071 56f8 Generated table #271@0: 8 keys, 109302 bytes
+2025/10/29-22:07:50.071 56f8 Compacted 4@0 + 1@1 files => 109302 bytes
+2025/10/29-22:07:50.097 56f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/29-22:07:50.098 56f8 Delete type=2 #261
+2025/10/29-22:07:50.098 56f8 Delete type=2 #263
+2025/10/29-22:07:50.098 56f8 Delete type=2 #265
+2025/10/29-22:07:50.098 56f8 Delete type=2 #267
+2025/10/29-22:07:50.098 56f8 Delete type=2 #270
+2025/10/29-22:10:52.609 56f8 Level-0 table #273: started
+2025/10/29-22:10:52.649 56f8 Level-0 table #273: 109018 bytes OK
+2025/10/29-22:10:52.677 56f8 Delete type=0 #269

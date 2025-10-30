@@ -1,20 +1,72 @@
-2025/10/28-17:38:51.780 58a4 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/10/28-17:38:51.814 58a4 Recovering log #227
-2025/10/28-17:38:51.870 58a4 Level-0 table #230: started
-2025/10/28-17:38:51.903 58a4 Level-0 table #230: 196029 bytes OK
-2025/10/28-17:38:51.929 58a4 Delete type=0 #227
-2025/10/28-17:39:52.022 5930 Level-0 table #233: started
-2025/10/28-17:39:52.047 5930 Level-0 table #233: 109142 bytes OK
-2025/10/28-17:39:52.064 5930 Delete type=0 #231
-2025/10/28-17:39:52.064 58a4 Compacting 4@0 + 1@1 files
-2025/10/28-17:39:52.083 58a4 Generated table #234@0: 8 keys, 109302 bytes
-2025/10/28-17:39:52.083 58a4 Compacted 4@0 + 1@1 files => 109302 bytes
-2025/10/28-17:39:52.104 58a4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/10/28-17:39:52.105 58a4 Delete type=2 #224
-2025/10/28-17:39:52.105 58a4 Delete type=2 #226
-2025/10/28-17:39:52.105 58a4 Delete type=2 #228
-2025/10/28-17:39:52.105 58a4 Delete type=2 #230
-2025/10/28-17:39:52.105 58a4 Delete type=2 #233
-2025/10/28-17:42:54.463 5930 Level-0 table #236: started
-2025/10/28-17:42:54.491 5930 Level-0 table #236: 109016 bytes OK
-2025/10/28-17:42:54.511 5930 Delete type=0 #232
+2025/10/29-21:51:31.737 5c80 Reusing MANIFEST D:\Universidad\3ero\Anailisis Numerico\TP 1\AnalisisNumerico2025-Poggi-Mallet-Barreto\InterfazDeUsuario\bin\Debug\net8.0-windows\InterfazDeUsuario.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/29-21:51:31.747 5c80 Recovering log #235
+2025/10/29-21:51:31.851 5c80 Level-0 table #238: started
+2025/10/29-21:51:31.896 5c80 Level-0 table #238: 109446 bytes OK
+2025/10/29-21:51:31.896 5c80 Recovering log #238
+2025/10/29-21:51:32.098 5c80 Level-0 table #239: started
+2025/10/29-21:51:32.121 5c80 Level-0 table #239: 109016 bytes OK
+2025/10/29-21:51:32.147 5c80 Delete type=0 #235
+2025/10/29-21:51:32.147 5c80 Delete type=0 #238
+2025/10/29-21:52:32.190 36c0 Level-0 table #242: started
+2025/10/29-21:52:32.230 36c0 Level-0 table #242: 109153 bytes OK
+2025/10/29-21:52:32.248 36c0 Delete type=0 #240
+2025/10/29-21:52:32.248 5c80 Compacting 4@0 + 1@1 files
+2025/10/29-21:52:32.285 5c80 Generated table #243@0: 8 keys, 109302 bytes
+2025/10/29-21:52:32.285 5c80 Compacted 4@0 + 1@1 files => 109302 bytes
+2025/10/29-21:52:32.305 5c80 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/29-21:52:32.306 5c80 Delete type=2 #234
+2025/10/29-21:52:32.306 5c80 Delete type=2 #236
+2025/10/29-21:52:32.306 5c80 Delete type=2 #238
+2025/10/29-21:52:32.306 5c80 Delete type=2 #239
+2025/10/29-21:52:32.306 5c80 Delete type=2 #242
+2025/10/29-21:56:31.907 36c0 Level-0 table #245: started
+2025/10/29-21:56:31.967 36c0 Level-0 table #245: 276108 bytes OK
+2025/10/29-21:56:31.985 36c0 Delete type=0 #241
+2025/10/29-21:57:29.224 36c0 Level-0 table #247: started
+2025/10/29-21:57:29.265 36c0 Level-0 table #247: 167209 bytes OK
+2025/10/29-21:57:29.287 36c0 Delete type=0 #244
+2025/10/29-21:58:26.531 36c0 Level-0 table #249: started
+2025/10/29-21:58:26.560 36c0 Level-0 table #249: 167209 bytes OK
+2025/10/29-21:58:26.579 36c0 Delete type=0 #246
+2025/10/29-21:59:23.833 36c0 Level-0 table #251: started
+2025/10/29-21:59:23.864 36c0 Level-0 table #251: 167209 bytes OK
+2025/10/29-21:59:23.881 36c0 Delete type=0 #248
+2025/10/29-21:59:23.882 36c0 Compacting 4@0 + 1@1 files
+2025/10/29-21:59:23.905 36c0 Generated table #252@0: 8 keys, 276305 bytes
+2025/10/29-21:59:23.906 36c0 Compacted 4@0 + 1@1 files => 276305 bytes
+2025/10/29-21:59:23.922 36c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/29-21:59:23.923 36c0 Delete type=2 #243
+2025/10/29-21:59:23.923 36c0 Delete type=2 #245
+2025/10/29-21:59:23.923 36c0 Delete type=2 #247
+2025/10/29-21:59:23.923 36c0 Delete type=2 #249
+2025/10/29-21:59:23.923 36c0 Delete type=2 #251
+2025/10/29-22:00:21.143 36c0 Level-0 table #254: started
+2025/10/29-22:00:21.179 36c0 Level-0 table #254: 167209 bytes OK
+2025/10/29-22:00:21.206 36c0 Delete type=0 #250
+2025/10/29-22:01:18.443 36c0 Level-0 table #256: started
+2025/10/29-22:01:18.474 36c0 Level-0 table #256: 167209 bytes OK
+2025/10/29-22:01:18.491 36c0 Delete type=0 #253
+2025/10/29-22:02:15.747 36c0 Level-0 table #258: started
+2025/10/29-22:02:15.776 36c0 Level-0 table #258: 167209 bytes OK
+2025/10/29-22:02:15.792 36c0 Delete type=0 #255
+2025/10/29-22:03:13.049 36c0 Level-0 table #260: started
+2025/10/29-22:03:13.081 36c0 Level-0 table #260: 167209 bytes OK
+2025/10/29-22:03:13.102 36c0 Delete type=0 #257
+2025/10/29-22:03:13.103 36c0 Compacting 4@0 + 1@1 files
+2025/10/29-22:03:13.129 36c0 Generated table #261@0: 8 keys, 276305 bytes
+2025/10/29-22:03:13.129 36c0 Compacted 4@0 + 1@1 files => 276305 bytes
+2025/10/29-22:03:13.151 36c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/10/29-22:03:13.152 36c0 Delete type=2 #252
+2025/10/29-22:03:13.152 36c0 Delete type=2 #254
+2025/10/29-22:03:13.152 36c0 Delete type=2 #256
+2025/10/29-22:03:13.152 36c0 Delete type=2 #258
+2025/10/29-22:03:13.153 36c0 Delete type=2 #260
+2025/10/29-22:04:10.354 36c0 Level-0 table #263: started
+2025/10/29-22:04:10.387 36c0 Level-0 table #263: 167209 bytes OK
+2025/10/29-22:04:10.402 36c0 Delete type=0 #259
+2025/10/29-22:05:07.673 36c0 Level-0 table #265: started
+2025/10/29-22:05:07.708 36c0 Level-0 table #265: 167209 bytes OK
+2025/10/29-22:05:07.737 36c0 Delete type=0 #262
+2025/10/29-22:05:08.353 36c0 Level-0 table #267: started
+2025/10/29-22:05:08.372 36c0 Level-0 table #267: 167209 bytes OK
+2025/10/29-22:05:08.421 36c0 Delete type=0 #264
